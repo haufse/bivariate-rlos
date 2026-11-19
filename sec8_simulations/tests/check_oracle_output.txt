@@ -1,0 +1,8 @@
+GH(2): sup|pilot-A0|=1.8e-03; relative Frobenius error of bootstrap Sigma (k=1000,B=3000) vs quadrature Sigma_0 at t=[0.15, 0.3, 0.5, 0.7, 0.85]: [0.0325, 0.0515, 0.0147, 0.0269, 0.032]  (63s)
+AL(2;.5,.9): sup|pilot-A0|=1.2e-03; relative Frobenius error of bootstrap Sigma (k=1000,B=3000) vs quadrature Sigma_0 at t=[0.15, 0.3, 0.5, 0.7, 0.85]: [0.0167, 0.0265, 0.0154, 0.0176, 0.0138]  (57s)
+M1 Gumbel-Hougaard(2)               n=2e6,b=200,k=1e4: r1 - A0 = [0.0015, 0.0023, 0.001, 0.0019, 0.0003]  (sd ~ 0.003; 0s)
+M2 Joe(2)                           n=2e6,b=200,k=1e4: r1 - A0 = [0.0005, 0.0037, 0.0045, 0.0024, 0.0011]  (sd ~ 0.003; 7s)
+M3 Outer-power Clayton BVZ(1,2)     n=2e6,b=200,k=1e4: r1 - A0 = [-0.0001, -0.0007, -0.0013, -0.0017, -0.0003]  (sd ~ 0.003; 0s)
+M4 BVZ Archimax psi_2               n=2e6,b=200,k=1e4: r1 - A0 = [-0.0002, -0.0006, -0.0001, 0.0004, -0.0005]  (sd ~ 0.003; 24s)
+M5 Asymmetric logistic(2; 0.5, 0.9) n=2e6,b=200,k=1e4: r1 - A0 = [-0.0017, -0.0021, -0.0037, -0.0047, -0.0049]  (sd ~ 0.003; 0s)
+D6b Clayton(1)                       n=2e6,b=200,k=1e4: r1 - A0 = [0.0, -0.0004, -0.0008, -0.0005, -0.0009]  (sd ~ 0.003; 0s)

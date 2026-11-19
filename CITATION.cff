@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying paper."
+title: "bivariate-rlos: code and simulation results for 'Estimation of Extremal Dependence from Bivariate r-Largest Order Statistics'"
+type: software
+authors:
+  - family-names: "Haufs"
+    given-names: "Erik"
+    orcid: "https://orcid.org/0009-0008-8194-7445"
+  - family-names: "Bücher"
+    given-names: "Axel"
+    orcid: "https://orcid.org/0000-0002-1947-1617"
+  - family-names: "Segers"
+    given-names: "Johan"
+    orcid: "https://orcid.org/0000-0002-0444-689X"
+  - family-names: "Lalancette"
+    given-names: "Michaël"
+license: MIT
+repository-code: "https://github.com/haufse/bivariate-rlos"
+# To be completed at release: version, date-released, doi (Zenodo), and the article's journal/year/doi.
+preferred-citation:
+  type: article
+  title: "Estimation of Extremal Dependence from Bivariate r-Largest Order Statistics"
+  authors:
+    - family-names: "Haufs"
+      given-names: "Erik"
+    - family-names: "Bücher"
+      given-names: "Axel"
+    - family-names: "Segers"
+      given-names: "Johan"
+    - family-names: "Lalancette"
+      given-names: "Michaël"

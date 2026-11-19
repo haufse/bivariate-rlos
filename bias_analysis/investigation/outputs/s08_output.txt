@@ -1,0 +1,10 @@
+t=0.2982: derivative check vs closed r=2 forms 1.2e-08
+  r=1: sigma2=0.04323  lam=[-3.11]  rank=-0.296  nonlin=0.0245  c=-0.272  c^2/sigma2=1.7
+  r=2: sigma2=0.03526  lam=[-2.42  0.79  0.28 -2.75]  rank=-1.206  nonlin=0.0315  c=-1.174  c^2/sigma2=39.1
+  r=3: sigma2=0.03377  lam=[-2.31  0.76 -0.02  0.27 -2.36  0.44  0.06  0.02 -2.98]  rank=-2.588  nonlin=0.0314  c=-2.556  c^2/sigma2=193.5
+  beta_C (r=3 pairs, lexicographic): [0.095 0.088 0.088 0.362 0.417 0.352 0.369 0.672 0.586]
+t=0.4982: derivative check vs closed r=2 forms 2.4e-08
+  r=1: sigma2=0.07221  lam=[-2.91]  rank=-0.411  nonlin=0.0423  c=-0.369  c^2/sigma2=1.9
+  r=2: sigma2=0.05784  lam=[-2.19  0.67  0.66 -2.42]  rank=-1.270  nonlin=0.0624  c=-1.208  c^2/sigma2=25.2
+  r=3: sigma2=0.05485  lam=[-2.08  0.63  0.13  0.63 -2.    0.3   0.13  0.29 -2.44]  rank=-2.423  nonlin=0.0661  c=-2.357  c^2/sigma2=101.3
+  beta_C (r=3 pairs, lexicographic): [0.141 0.191 0.177 0.194 0.503 0.506 0.179 0.51  0.702]

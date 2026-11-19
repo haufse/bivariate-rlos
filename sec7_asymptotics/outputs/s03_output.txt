@@ -1,0 +1,25 @@
+Quadrature Sigma(t) uses rlos_lib.sigma(t, 2, 3, npan=30, m=8).
+
+t=0.3  (time 70s)
+  (1) influence-function MC vs quadrature Sigma: max |z| over 45 entries = 1.24;  max rel. diff on diagonal = 0.0364
+  (2) known-margin MC vs known-margin quadrature: max |z| = 1.11;  max rel. diff on diagonal = 0.0013
+      sigma_opt^2 r=1: quadrature 0.043651;  influence MC 0.043692 +- 0.000110
+      sigma_opt^2 r=2: quadrature 0.035588;  influence MC 0.035605 +- 0.000088
+      sigma_opt^2 r=3: quadrature 0.034083;  influence MC 0.034030 +- 0.000090
+
+t=0.5  (time 61s)
+  (1) influence-function MC vs quadrature Sigma: max |z| over 45 entries = 1.44;  max rel. diff on diagonal = 0.0050
+  (2) known-margin MC vs known-margin quadrature: max |z| = 1.32;  max rel. diff on diagonal = 0.0021
+      sigma_opt^2 r=1: quadrature 0.072216;  influence MC 0.072235 +- 0.000062
+      sigma_opt^2 r=2: quadrature 0.057842;  influence MC 0.057902 +- 0.000080
+      sigma_opt^2 r=3: quadrature 0.054851;  influence MC 0.054924 +- 0.000110
+
+(3) rank-based limit-law MC, k Cov(hat mu^rank): diagonal ratio MC/quadrature, (l,m) lexicographic
+  k=  400 B=8000 t=0.3: 1.030 1.036 0.884 0.988 0.979 0.748 0.938 0.967 0.756  | sigma_opt^2 ratio r=2: 1.032, r=3: 1.008  (s.e. of ratios approx 0.016)
+  k=  400 B=8000 t=0.5: 1.040 0.982 0.952 0.969 0.985 0.925 0.954 0.929 0.928  | sigma_opt^2 ratio r=2: 1.032, r=3: 1.028  (s.e. of ratios approx 0.016)
+  k= 1600 B=4000 t=0.3: 1.017 0.988 0.943 0.978 0.939 0.914 0.936 0.976 0.885  | sigma_opt^2 ratio r=2: 0.986, r=3: 0.978  (s.e. of ratios approx 0.022)
+  k= 1600 B=4000 t=0.5: 1.010 1.004 0.963 0.973 0.977 0.995 0.964 0.976 0.959  | sigma_opt^2 ratio r=2: 1.006, r=3: 1.007  (s.e. of ratios approx 0.022)
+
+(4) POT variance, GH(2) copula samples:
+  t=0.3: k_p*Var MC = 0.04907 +- 0.00127;  formula Var A_p(t) = 0.04900
+  t=0.5: k_p*Var MC = 0.08550 +- 0.00221;  formula Var A_p(t) = 0.08579

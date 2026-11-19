@@ -1,0 +1,8 @@
+label,n_compared,max_abs_diff
+r1,101000,0.0
+r2_id,96000,0.0
+r2_eff,96000,0.0
+r2_eff_bceq,96000,0.0
+r3_id,5000,0.0
+r3_eff,5000,0.0
+r3_eff_bceq,5000,0.0

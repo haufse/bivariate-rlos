@@ -1,0 +1,64 @@
+(1) cluster grid vs local recomputation (theta = 2, r = 3, npan=30, m=8):
+    node t=0.07959: max abs diff = 1.62e-17
+    node t=0.36322: max abs diff = 1.11e-17
+
+(2) interpolation (kquad) vs direct quadrature at off-grid t:
+    theta=2 t=0.15: max abs diff / max entry = 1.19e-11
+    theta=2 t=0.2: max abs diff / max entry = 1.14e-11
+    theta=2 t=0.27: max abs diff / max entry = 1.52e-11
+    theta=2 t=0.42: max abs diff / max entry = 5.13e-11
+    theta=3 t=0.15: max abs diff / max entry = 7.05e-11
+    theta=3 t=0.23: max abs diff / max entry = 5.33e-11
+    worst relative interpolation error: 7.05e-11
+
+(3) pointwise sigma_opt^2 at the GH(2) attractor, direct quadrature:
+    t=0.3: r1 0.043651  r2 0.035588  r3 0.034083  | r2/r1 0.8153  r3/r1 0.7808  r3/r2 0.9577  | sigma2_lib r2 0.035588 (rel diff 1.7e-12), max|Sigma_2 diff| 1.5e-14
+    t=0.5: r1 0.072216  r2 0.057842  r3 0.054851  | r2/r1 0.8010  r3/r1 0.7595  r3/r2 0.9483  | sigma2_lib r2 0.057842 (rel diff 7.4e-13), max|Sigma_2 diff| 2.3e-14
+
+(4) second route for the integrated constants (sigma2_lib + closed-form R, fresh t-rule), relative difference to s05/s06:
+  T = [0.15, 0.85]  (48 t-nodes on [delta, 1/2])
+    V1             route 2  3.28692719e-02   s05  3.28692719e-02   rel diff -2.0e-11
+    V2             route 2  2.66657015e-02   s05  2.66657015e-02   rel diff -9.0e-12
+    BRR            route 2  1.65868752e-06   s05  1.65868752e-06   rel diff -8.0e-11
+    BSS1_Joe       route 2  1.04811710e-02   s05  1.04811710e-02   rel diff  2.2e-16
+    BSS2_Joe       route 2  1.38423005e-02   s05  1.38423005e-02   rel diff -1.1e-11
+    BSR2_Joe       route 2  1.48671332e-04   s05  1.48671332e-04   rel diff -3.7e-11
+    BSS1_Archimax  route 2  1.29542326e-03   s05  1.29542326e-03   rel diff  2.2e-16
+    BSS2_Archimax  route 2  2.25656397e-03   s05  2.25656397e-03   rel diff -2.1e-11
+    BSR2_Archimax  route 2 -6.01924411e-05   s05 -6.01924411e-05   rel diff -4.3e-11
+    V_p            quad     3.77160549e-02   s05  3.77160549e-02   rel diff  0.0e+00
+    B_p[GH]        quad     7.85876701e-03   s05  7.85876701e-03   rel diff  4.4e-16
+    B_p[Joe]       quad     7.28470697e-04   s05  7.28470697e-04   rel diff  2.2e-16
+    table cell GH r=1 (V1)      route 2 0.0328693   s06 0.0328693   rel diff -2.0e-11
+    table cell GH r=2           route 2 0.00199676   s06 0.00199676   rel diff -3.3e-11
+    table cell Joe r=1          route 2 0.0267349   s06 0.0267349   rel diff -1.3e-11
+    table cell Joe r=2          route 2 0.0258787   s06 0.0258787   rel diff -1.0e-11
+    table cell OPC r=2          route 2 0.0251479   s06 0.0251479   rel diff -9.3e-12
+    table cell Joe/OPC r=2 bc   route 2 0.0255144   s06 0.0255144   rel diff -9.7e-12
+    table cell Archimax r=1     route 2 0.0283946   s06 0.0283946   rel diff -1.6e-11
+    table cell POT GH/Archimax  route 2 0.0266205   s06 0.0266205   rel diff  0.0e+00
+    table cell POT OPC          route 2 0.0422575   s06 0.0422575   rel diff  2.2e-16
+    table cell POT Joe          route 2 0.0282505   s06 0.0282505   rel diff  0.0e+00
+  T = [0.01, 0.99]  (84 t-nodes on [delta, 1/2])
+    V1             route 2  3.40960945e-02   s05  3.40960945e-02   rel diff -2.0e-11
+    V2             route 2  2.77603017e-02   s05  2.77603017e-02   rel diff -9.4e-12
+    BRR            route 2  1.67875956e-06   s05  1.67875956e-06   rel diff -7.6e-11
+    BSS1_Joe       route 2  1.05435603e-02   s05  1.05435603e-02   rel diff -1.1e-16
+    BSS2_Joe       route 2  1.39140325e-02   s05  1.39140325e-02   rel diff -1.1e-11
+    BSR2_Joe       route 2  1.49844655e-04   s05  1.49844655e-04   rel diff -3.5e-11
+    BSS1_Archimax  route 2  1.30264800e-03   s05  1.30264800e-03   rel diff -3.3e-16
+    BSS2_Archimax  route 2  2.26609936e-03   s05  2.26609936e-03   rel diff -2.1e-11
+    BSR2_Archimax  route 2 -6.06190252e-05   s05 -6.06190252e-05   rel diff -4.1e-11
+    V_p            quad     3.89473473e-02   s05  3.89473473e-02   rel diff  1.3e-15
+    B_p[GH]        quad     7.91417077e-03   s05  7.91417077e-03   rel diff  2.2e-16
+    B_p[Joe]       quad     7.34168787e-04   s05  7.34168787e-04   rel diff  0.0e+00
+    table cell GH r=1 (V1)      route 2 0.0340961   s06 0.0340961   rel diff -2.0e-11
+    table cell GH r=2           route 2 0.00205927   s06 0.00205927   rel diff -3.2e-11
+    table cell Joe r=1          route 2 0.0274503   s06 0.0274503   rel diff -1.3e-11
+    table cell Joe r=2          route 2 0.026629   s06 0.026629   rel diff -1.0e-11
+    table cell OPC r=2          route 2 0.025875   s06 0.025875   rel diff -9.6e-12
+    table cell Joe/OPC r=2 bc   route 2 0.0262532   s06 0.0262532   rel diff -1.0e-11
+    table cell Archimax r=1     route 2 0.0292719   s06 0.0292719   rel diff -1.6e-11
+    table cell POT GH/Archimax  route 2 0.0272606   s06 0.0272606   rel diff  1.3e-15
+    table cell POT OPC          route 2 0.0432735   s06 0.0432735   rel diff  1.1e-15
+    table cell POT Joe          route 2 0.0290311   s06 0.0290311   rel diff  1.1e-15

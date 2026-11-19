@@ -1,0 +1,448 @@
+
+================  K = [0.0, 1.0]  ================
+V:  r1=0.0340964  r2opt=0.0277607  r2id=0.0363851  r3opt=0.0265355  r3id=0.0374478  pot=0.0389477   ratios to r1: r2opt 0.8142, r3opt 0.7782, r3opt/r2opt 0.9559, r2id 1.0671, POT 1.1423
+--- GH
+  r=1        0.034096 n^-1;  b* = 1 n^0
+             full criterion: n=1e+03: min 3.41e-05 at b=1  n=1e+04: min 3.41e-06 at b=1  n=1e+05: min 3.41e-07 at b=1  n=1e+06: min 3.41e-08 at b=1   [Prop rank-maxima-branches(b), b=1]
+  r=2        0.0020593 n^-0.6667;  b* = 0.04945 n^0.333  (b* < 2 for n < 6.61e+04)
+             full criterion: n=1e+03: min 5.594e-05 at b=2  n=1e+04: min 5.972e-06 at b=2  n=1e+05: min 9.558e-07 at b=2.3  n=1e+06: min 2.059e-07 at b=4.95   [Thm process-cov-unknown, c1 irrelevant (S=0), c2>0]
+  r=2 bc     no interior optimum
+             full criterion: n=1e+03: min 5.552e-05 at b=2  n=1e+04: min 5.552e-06 at b=2  n=1e+05: min 5.552e-07 at b=2  n=1e+06: min 5.552e-08 at b=2   [no leading bias; no interior optimum within sqrt(k)/b=O(1)]
+  POT        0.027261 n^-0.6667;  b* = 0.4666 n^0.333  (b* < 1 for n < 9.84)
+             full criterion: n=1e+03: min 0.0002726 at b=4.67  n=1e+04: min 5.873e-05 at b=10.1  n=1e+05: min 1.265e-05 at b=21.7  n=1e+06: min 2.726e-06 at b=46.7   [BVZ Prop 4.1(i)]
+  r=2 id     0.013997 n^-0.6667;  b* = 0.2565 n^0.333  (b* < 2 for n < 474)
+             full criterion: n=1e+03: min 0.00014 at b=2.56  n=1e+04: min 3.016e-05 at b=5.53  n=1e+05: min 6.497e-06 at b=11.9  n=1e+06: min 1.4e-06 at b=25.6   [Thm process-cov-unknown, c1 irrelevant (S=0), c2>0]
+  r=2 id bc  no interior optimum
+             full criterion: n=1e+03: min 7.277e-05 at b=2  n=1e+04: min 7.277e-06 at b=2  n=1e+05: min 7.277e-07 at b=2  n=1e+06: min 7.277e-08 at b=2   [no leading bias; no interior optimum within sqrt(k)/b=O(1)]
+  r=3        0.0039651 n^-0.6667;  b* = 0.09962 n^0.333  (b* < 3 for n < 2.73e+04)
+             full criterion: n=1e+03: min 8.106e-05 at b=3  n=1e+04: min 9.418e-06 at b=3  n=1e+05: min 1.84e-06 at b=4.62  n=1e+06: min 3.965e-07 at b=9.96   [Thm process-cov-unknown, c1 irrelevant (S=0), c2>0]
+  r=3 bc     no interior optimum
+             full criterion: n=1e+03: min 7.961e-05 at b=3  n=1e+04: min 7.961e-06 at b=3  n=1e+05: min 7.961e-07 at b=3  n=1e+06: min 7.961e-08 at b=3   [no leading bias; no interior optimum within sqrt(k)/b=O(1)]
+--- Joe
+  r=1        0.02745 n^-0.6667;  b* = 0.5367 n^0.333  (b* < 1 for n < 6.47)
+             full criterion: n=1e+03: min 0.0002745 at b=5.37  n=1e+04: min 5.914e-05 at b=11.6  n=1e+05: min 1.274e-05 at b=24.9  n=1e+06: min 2.745e-06 at b=53.7   [Prop rank-maxima-branches(a)]
+  r=2        0.026629 n^-0.6667;  b* = 0.6395 n^0.333  (b* < 2 for n < 30.6)
+             full criterion: n=1e+03: min 0.0002663 at b=6.39  n=1e+04: min 5.737e-05 at b=13.8  n=1e+05: min 1.236e-05 at b=29.7  n=1e+06: min 2.663e-06 at b=63.9   [Thm process-cov-unknown]
+  r=2 bc     0.026253 n^-0.6667;  b* = 0.6305 n^0.333  (b* < 2 for n < 31.9)
+             full criterion: n=1e+03: min 0.0002625 at b=6.3  n=1e+04: min 5.656e-05 at b=13.6  n=1e+05: min 1.219e-05 at b=29.3  n=1e+06: min 2.625e-06 at b=63   [Thm rank-bias-correction]
+  POT        0.029031 n^-0.8;  b* = 0.5963 n^0.2  (b* < 1 for n < 13.3)
+             full criterion: n=1e+03: min 0.0001156 at b=2.37  n=1e+04: min 1.832e-05 at b=3.76  n=1e+05: min 2.903e-06 at b=5.96  n=1e+06: min 4.601e-07 at b=9.45   [BVZ Prop 4.1(i)]
+  r=2 id     0.036061 n^-0.6667;  b* = 0.6607 n^0.333  (b* < 2 for n < 27.7)
+             full criterion: n=1e+03: min 0.0003606 at b=6.61  n=1e+04: min 7.769e-05 at b=14.2  n=1e+05: min 1.674e-05 at b=30.7  n=1e+06: min 3.606e-06 at b=66.1   [Thm process-cov-unknown]
+  r=2 id bc  0.031246 n^-0.6667;  b* = 0.5725 n^0.333  (b* < 2 for n < 42.6)
+             full criterion: n=1e+03: min 0.0003125 at b=5.73  n=1e+04: min 6.732e-05 at b=12.3  n=1e+05: min 1.45e-05 at b=26.6  n=1e+06: min 3.125e-06 at b=57.3   [Thm rank-bias-correction]
+  r=3        0.027643 n^-0.6667;  b* = 0.6945 n^0.333  (b* < 3 for n < 80.6)
+             full criterion: n=1e+03: min 0.0002764 at b=6.94  n=1e+04: min 5.956e-05 at b=15  n=1e+05: min 1.283e-05 at b=32.2  n=1e+06: min 2.764e-06 at b=69.4   [Thm process-cov-unknown]
+  r=3 bc     0.026638 n^-0.6667;  b* = 0.6692 n^0.333  (b* < 3 for n < 90.1)
+             full criterion: n=1e+03: min 0.0002664 at b=6.69  n=1e+04: min 5.739e-05 at b=14.4  n=1e+05: min 1.236e-05 at b=31.1  n=1e+06: min 2.664e-06 at b=66.9   [Thm rank-bias-correction]
+--- OPC
+  r=1        0.02745 n^-0.6667;  b* = 0.5367 n^0.333  (b* < 1 for n < 6.47)
+             full criterion: n=1e+03: min 0.0002745 at b=5.37  n=1e+04: min 5.914e-05 at b=11.6  n=1e+05: min 1.274e-05 at b=24.9  n=1e+06: min 2.745e-06 at b=53.7   [Prop rank-maxima-branches(a)]
+  r=2        0.025875 n^-0.6667;  b* = 0.6214 n^0.333  (b* < 2 for n < 33.3)
+             full criterion: n=1e+03: min 0.0002588 at b=6.21  n=1e+04: min 5.575e-05 at b=13.4  n=1e+05: min 1.201e-05 at b=28.8  n=1e+06: min 2.588e-06 at b=62.1   [Thm process-cov-unknown]
+  r=2 bc     0.026253 n^-0.6667;  b* = 0.6305 n^0.333  (b* < 2 for n < 31.9)
+             full criterion: n=1e+03: min 0.0002625 at b=6.3  n=1e+04: min 5.656e-05 at b=13.6  n=1e+05: min 1.219e-05 at b=29.3  n=1e+06: min 2.625e-06 at b=63   [Thm rank-bias-correction]
+  POT        0.043274 n^-0.6667;  b* = 0.7407 n^0.333  (b* < 1 for n < 2.46)
+             full criterion: n=1e+03: min 0.0004327 at b=7.41  n=1e+04: min 9.323e-05 at b=16  n=1e+05: min 2.009e-05 at b=34.4  n=1e+06: min 4.327e-06 at b=74.1   [BVZ Prop 4.1(i)]
+  r=2 id     0.026965 n^-0.6667;  b* = 0.4941 n^0.333  (b* < 2 for n < 66.3)
+             full criterion: n=1e+03: min 0.0002696 at b=4.94  n=1e+04: min 5.809e-05 at b=10.6  n=1e+05: min 1.252e-05 at b=22.9  n=1e+06: min 2.696e-06 at b=49.4   [Thm process-cov-unknown]
+  r=2 id bc  0.031246 n^-0.6667;  b* = 0.5725 n^0.333  (b* < 2 for n < 42.6)
+             full criterion: n=1e+03: min 0.0003125 at b=5.73  n=1e+04: min 6.732e-05 at b=12.3  n=1e+05: min 1.45e-05 at b=26.6  n=1e+06: min 3.125e-06 at b=57.3   [Thm rank-bias-correction]
+  r=3        0.025615 n^-0.6667;  b* = 0.6435 n^0.333  (b* < 3 for n < 101)
+             full criterion: n=1e+03: min 0.0002561 at b=6.44  n=1e+04: min 5.518e-05 at b=13.9  n=1e+05: min 1.189e-05 at b=29.9  n=1e+06: min 2.561e-06 at b=64.4   [Thm process-cov-unknown]
+  r=3 bc     0.026638 n^-0.6667;  b* = 0.6692 n^0.333  (b* < 3 for n < 90.1)
+             full criterion: n=1e+03: min 0.0002664 at b=6.69  n=1e+04: min 5.739e-05 at b=14.4  n=1e+05: min 1.236e-05 at b=31.1  n=1e+06: min 2.664e-06 at b=66.9   [Thm rank-bias-correction]
+--- Archimax
+  r=1        0.029272 n^-0.8;  b* = 0.6868 n^0.2  (b* < 1 for n < 6.54)
+             full criterion: n=1e+03: min 0.0001165 at b=2.73  n=1e+04: min 1.847e-05 at b=4.33  n=1e+05: min 2.927e-06 at b=6.87  n=1e+06: min 4.639e-07 at b=10.9   [Prop rank-maxima-branches(a): c1>0, no c2 condition]
+  r=2        0.0020593 n^-0.6667;  b* = 0.04945 n^0.333  (b* < 2 for n < 6.61e+04)
+             full criterion: n=1e+03: min 0.0001067 at b=3.1  n=1e+04: min 1.657e-05 at b=4.84  n=1e+05: min 2.541e-06 at b=7.49  n=1e+06: min 3.817e-07 at b=11.4   [Thm process-cov-unknown with c1=0 (b ~ n^{1/3}); lower-order S terms b^{-4}, b^{-3} dropped]
+  r=2 bc     0.027741 n^-0.8;  b* = 0.7994 n^0.2  (b* < 2 for n < 98)
+             full criterion: n=1e+03: min 0.0001104 at b=3.18  n=1e+04: min 1.75e-05 at b=5.04  n=1e+05: min 2.774e-06 at b=7.99  n=1e+06: min 4.397e-07 at b=12.7   [OUTSIDE proved regime: b* ~ n^{1/5} violates sqrt(k)/b=O(1) of Thm rank-bias-correction; within the regime (b >~ n^{1/3}) the leading bias is o(variance): no interior optimum]
+  POT        0.027261 n^-0.6667;  b* = 0.4666 n^0.333  (b* < 1 for n < 9.84)
+             full criterion: n=1e+03: min 0.0002726 at b=4.67  n=1e+04: min 5.873e-05 at b=10.1  n=1e+05: min 1.265e-05 at b=21.7  n=1e+06: min 2.726e-06 at b=46.7   [BVZ Prop 4.1(i)]
+  r=2 id     0.013997 n^-0.6667;  b* = 0.2565 n^0.333  (b* < 2 for n < 474)
+             full criterion: n=1e+03: min 0.0001176 at b=2.47  n=1e+04: min 2.322e-05 at b=4.05  n=1e+05: min 5.709e-06 at b=9.69  n=1e+06: min 1.325e-06 at b=23.6   [Thm process-cov-unknown with c1=0 (b ~ n^{1/3}); lower-order S terms b^{-4}, b^{-3} dropped]
+  r=2 id bc  0.034067 n^-0.8;  b* = 0.749 n^0.2  (b* < 2 for n < 136)
+             full criterion: n=1e+03: min 0.0001356 at b=2.98  n=1e+04: min 2.15e-05 at b=4.73  n=1e+05: min 3.407e-06 at b=7.49  n=1e+06: min 5.399e-07 at b=11.9   [OUTSIDE proved regime: b* ~ n^{1/5} violates sqrt(k)/b=O(1) of Thm rank-bias-correction; within the regime (b >~ n^{1/3}) the leading bias is o(variance): no interior optimum]
+  r=3        0.0039651 n^-0.6667;  b* = 0.09962 n^0.333  (b* < 3 for n < 2.73e+04)
+             full criterion: n=1e+03: min 0.0001033 at b=3.19  n=1e+04: min 1.548e-05 at b=4.85  n=1e+05: min 2.237e-06 at b=7.18  n=1e+06: min 3.041e-07 at b=10.1   [Thm process-cov-unknown with c1=0 (b ~ n^{1/3}); lower-order S terms b^{-4}, b^{-3} dropped]
+  r=3 bc     0.028443 n^-0.8;  b* = 0.8575 n^0.2  (b* < 3 for n < 524)
+             full criterion: n=1e+03: min 0.0001132 at b=3.41  n=1e+04: min 1.795e-05 at b=5.41  n=1e+05: min 2.844e-06 at b=8.58  n=1e+06: min 4.508e-07 at b=13.6   [OUTSIDE proved regime: b* ~ n^{1/5} violates sqrt(k)/b=O(1) of Thm rank-bias-correction; within the regime (b >~ n^{1/3}) the leading bias is o(variance): no interior optimum]
+  [WITHDRAWN 2026-11-18: terms below the o(1/b) remainder; heuristic only]
+  Archimax r=2: omitted-term ratio |2 b^{-3} B_SR + b^{-4} B_SS| / (b^{-2} B_RR) at leading b*(n):
+     n=1e+03: b*=0.495, ratio=5.37e+03
+     n=1e+04: b*=1.07, ratio=1.12e+03
+     n=1e+05: b*=2.3, ratio=225
+     n=1e+06: b*=4.95, ratio=40.6
+     n=1e+07: b*=10.7, ratio=5.11
+     n=1e+08: b*=23, ratio=0.584
+     omitted terms < 10% of the B_RR term for all b >= 703; leading b*(n) reaches it at n = 2.87e+12  (sign change of the omitted terms at b = 18.7)
+  [WITHDRAWN 2026-11-18: full-criterion ratios and crossings below are not supported for rho_b<-1 (Archimax) nor for GH r=2 at small b]
+  GH: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 1.6407, 1.7514, 2.8033, 6.0396;  crossings in [1e2,1e14]: none
+  GH: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 1.6284, 1.6284, 1.6284, 1.6284;  crossings in [1e2,1e14]: none
+  Joe: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 0.9701, 0.9701, 0.9701, 0.9701;  crossings in [1e2,1e14]: none
+  Joe: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 0.9564, 0.9564, 0.9564, 0.9564;  crossings in [1e2,1e14]: none
+  OPC: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 0.9426, 0.9426, 0.9426, 0.9426;  crossings in [1e2,1e14]: none
+  OPC: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 0.9564, 0.9564, 0.9564, 0.9564;  crossings in [1e2,1e14]: none
+  Archimax: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 0.9156, 0.8970, 0.8680, 0.8228;  crossings in [1e2,1e14]: 8.9e+10
+  Archimax: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 0.9477, 0.9477, 0.9477, 0.9477;  crossings in [1e2,1e14]: none
+
+================  K = [0.01, 0.99]  ================
+V:  r1=0.0340961  r2opt=0.0277603  r2id=0.0363659  r3opt=0.0265351  r3id=0.0374195  pot=0.0389473   ratios to r1: r2opt 0.8142, r3opt 0.7782, r3opt/r2opt 0.9559, r2id 1.0666, POT 1.1423
+--- GH
+  r=1        0.034096 n^-1;  b* = 1 n^0
+             full criterion: n=1e+03: min 3.41e-05 at b=1  n=1e+04: min 3.41e-06 at b=1  n=1e+05: min 3.41e-07 at b=1  n=1e+06: min 3.41e-08 at b=1   [Prop rank-maxima-branches(b), b=1]
+  r=2        0.0020593 n^-0.6667;  b* = 0.04945 n^0.333  (b* < 2 for n < 6.61e+04)
+             full criterion: n=1e+03: min 5.594e-05 at b=2  n=1e+04: min 5.972e-06 at b=2  n=1e+05: min 9.558e-07 at b=2.3  n=1e+06: min 2.059e-07 at b=4.95   [Thm process-cov-unknown, c1 irrelevant (S=0), c2>0]
+  r=2 bc     no interior optimum
+             full criterion: n=1e+03: min 5.552e-05 at b=2  n=1e+04: min 5.552e-06 at b=2  n=1e+05: min 5.552e-07 at b=2  n=1e+06: min 5.552e-08 at b=2   [no leading bias; no interior optimum within sqrt(k)/b=O(1)]
+  POT        0.027261 n^-0.6667;  b* = 0.4666 n^0.333  (b* < 1 for n < 9.84)
+             full criterion: n=1e+03: min 0.0002726 at b=4.67  n=1e+04: min 5.873e-05 at b=10.1  n=1e+05: min 1.265e-05 at b=21.7  n=1e+06: min 2.726e-06 at b=46.7   [BVZ Prop 4.1(i)]
+  r=2 id     0.013992 n^-0.6667;  b* = 0.2565 n^0.333  (b* < 2 for n < 474)
+             full criterion: n=1e+03: min 0.0001399 at b=2.57  n=1e+04: min 3.014e-05 at b=5.53  n=1e+05: min 6.494e-06 at b=11.9  n=1e+06: min 1.399e-06 at b=25.7   [Thm process-cov-unknown, c1 irrelevant (S=0), c2>0]
+  r=2 id bc  no interior optimum
+             full criterion: n=1e+03: min 7.273e-05 at b=2  n=1e+04: min 7.273e-06 at b=2  n=1e+05: min 7.273e-07 at b=2  n=1e+06: min 7.273e-08 at b=2   [no leading bias; no interior optimum within sqrt(k)/b=O(1)]
+  r=3        0.0039651 n^-0.6667;  b* = 0.09962 n^0.333  (b* < 3 for n < 2.73e+04)
+             full criterion: n=1e+03: min 8.106e-05 at b=3  n=1e+04: min 9.418e-06 at b=3  n=1e+05: min 1.84e-06 at b=4.62  n=1e+06: min 3.965e-07 at b=9.96   [Thm process-cov-unknown, c1 irrelevant (S=0), c2>0]
+  r=3 bc     no interior optimum
+             full criterion: n=1e+03: min 7.961e-05 at b=3  n=1e+04: min 7.961e-06 at b=3  n=1e+05: min 7.961e-07 at b=3  n=1e+06: min 7.961e-08 at b=3   [no leading bias; no interior optimum within sqrt(k)/b=O(1)]
+--- Joe
+  r=1        0.02745 n^-0.6667;  b* = 0.5367 n^0.333  (b* < 1 for n < 6.47)
+             full criterion: n=1e+03: min 0.0002745 at b=5.37  n=1e+04: min 5.914e-05 at b=11.6  n=1e+05: min 1.274e-05 at b=24.9  n=1e+06: min 2.745e-06 at b=53.7   [Prop rank-maxima-branches(a)]
+  r=2        0.026629 n^-0.6667;  b* = 0.6395 n^0.333  (b* < 2 for n < 30.6)
+             full criterion: n=1e+03: min 0.0002663 at b=6.39  n=1e+04: min 5.737e-05 at b=13.8  n=1e+05: min 1.236e-05 at b=29.7  n=1e+06: min 2.663e-06 at b=63.9   [Thm process-cov-unknown]
+  r=2 bc     0.026253 n^-0.6667;  b* = 0.6305 n^0.333  (b* < 2 for n < 31.9)
+             full criterion: n=1e+03: min 0.0002625 at b=6.3  n=1e+04: min 5.656e-05 at b=13.6  n=1e+05: min 1.219e-05 at b=29.3  n=1e+06: min 2.625e-06 at b=63   [Thm rank-bias-correction]
+  POT        0.029031 n^-0.8;  b* = 0.5963 n^0.2  (b* < 1 for n < 13.3)
+             full criterion: n=1e+03: min 0.0001156 at b=2.37  n=1e+04: min 1.832e-05 at b=3.76  n=1e+05: min 2.903e-06 at b=5.96  n=1e+06: min 4.601e-07 at b=9.45   [BVZ Prop 4.1(i)]
+  r=2 id     0.036048 n^-0.6667;  b* = 0.6608 n^0.333  (b* < 2 for n < 27.7)
+             full criterion: n=1e+03: min 0.0003605 at b=6.61  n=1e+04: min 7.766e-05 at b=14.2  n=1e+05: min 1.673e-05 at b=30.7  n=1e+06: min 3.605e-06 at b=66.1   [Thm process-cov-unknown]
+  r=2 id bc  0.031235 n^-0.6667;  b* = 0.5726 n^0.333  (b* < 2 for n < 42.6)
+             full criterion: n=1e+03: min 0.0003124 at b=5.73  n=1e+04: min 6.729e-05 at b=12.3  n=1e+05: min 1.45e-05 at b=26.6  n=1e+06: min 3.124e-06 at b=57.3   [Thm rank-bias-correction]
+  r=3        0.027643 n^-0.6667;  b* = 0.6945 n^0.333  (b* < 3 for n < 80.6)
+             full criterion: n=1e+03: min 0.0002764 at b=6.95  n=1e+04: min 5.956e-05 at b=15  n=1e+05: min 1.283e-05 at b=32.2  n=1e+06: min 2.764e-06 at b=69.5   [Thm process-cov-unknown]
+  r=3 bc     0.026638 n^-0.6667;  b* = 0.6693 n^0.333  (b* < 3 for n < 90.1)
+             full criterion: n=1e+03: min 0.0002664 at b=6.69  n=1e+04: min 5.739e-05 at b=14.4  n=1e+05: min 1.236e-05 at b=31.1  n=1e+06: min 2.664e-06 at b=66.9   [Thm rank-bias-correction]
+--- OPC
+  r=1        0.02745 n^-0.6667;  b* = 0.5367 n^0.333  (b* < 1 for n < 6.47)
+             full criterion: n=1e+03: min 0.0002745 at b=5.37  n=1e+04: min 5.914e-05 at b=11.6  n=1e+05: min 1.274e-05 at b=24.9  n=1e+06: min 2.745e-06 at b=53.7   [Prop rank-maxima-branches(a)]
+  r=2        0.025875 n^-0.6667;  b* = 0.6214 n^0.333  (b* < 2 for n < 33.3)
+             full criterion: n=1e+03: min 0.0002587 at b=6.21  n=1e+04: min 5.575e-05 at b=13.4  n=1e+05: min 1.201e-05 at b=28.8  n=1e+06: min 2.587e-06 at b=62.1   [Thm process-cov-unknown]
+  r=2 bc     0.026253 n^-0.6667;  b* = 0.6305 n^0.333  (b* < 2 for n < 31.9)
+             full criterion: n=1e+03: min 0.0002625 at b=6.3  n=1e+04: min 5.656e-05 at b=13.6  n=1e+05: min 1.219e-05 at b=29.3  n=1e+06: min 2.625e-06 at b=63   [Thm rank-bias-correction]
+  POT        0.043273 n^-0.6667;  b* = 0.7407 n^0.333  (b* < 1 for n < 2.46)
+             full criterion: n=1e+03: min 0.0004327 at b=7.41  n=1e+04: min 9.323e-05 at b=16  n=1e+05: min 2.009e-05 at b=34.4  n=1e+06: min 4.327e-06 at b=74.1   [BVZ Prop 4.1(i)]
+  r=2 id     0.026955 n^-0.6667;  b* = 0.4941 n^0.333  (b* < 2 for n < 66.3)
+             full criterion: n=1e+03: min 0.0002696 at b=4.94  n=1e+04: min 5.807e-05 at b=10.6  n=1e+05: min 1.251e-05 at b=22.9  n=1e+06: min 2.696e-06 at b=49.4   [Thm process-cov-unknown]
+  r=2 id bc  0.031235 n^-0.6667;  b* = 0.5726 n^0.333  (b* < 2 for n < 42.6)
+             full criterion: n=1e+03: min 0.0003124 at b=5.73  n=1e+04: min 6.729e-05 at b=12.3  n=1e+05: min 1.45e-05 at b=26.6  n=1e+06: min 3.124e-06 at b=57.3   [Thm rank-bias-correction]
+  r=3        0.025614 n^-0.6667;  b* = 0.6435 n^0.333  (b* < 3 for n < 101)
+             full criterion: n=1e+03: min 0.0002561 at b=6.44  n=1e+04: min 5.518e-05 at b=13.9  n=1e+05: min 1.189e-05 at b=29.9  n=1e+06: min 2.561e-06 at b=64.4   [Thm process-cov-unknown]
+  r=3 bc     0.026638 n^-0.6667;  b* = 0.6693 n^0.333  (b* < 3 for n < 90.1)
+             full criterion: n=1e+03: min 0.0002664 at b=6.69  n=1e+04: min 5.739e-05 at b=14.4  n=1e+05: min 1.236e-05 at b=31.1  n=1e+06: min 2.664e-06 at b=66.9   [Thm rank-bias-correction]
+--- Archimax
+  r=1        0.029272 n^-0.8;  b* = 0.6868 n^0.2  (b* < 1 for n < 6.54)
+             full criterion: n=1e+03: min 0.0001165 at b=2.73  n=1e+04: min 1.847e-05 at b=4.33  n=1e+05: min 2.927e-06 at b=6.87  n=1e+06: min 4.639e-07 at b=10.9   [Prop rank-maxima-branches(a): c1>0, no c2 condition]
+  r=2        0.0020593 n^-0.6667;  b* = 0.04945 n^0.333  (b* < 2 for n < 6.61e+04)
+             full criterion: n=1e+03: min 0.0001067 at b=3.1  n=1e+04: min 1.657e-05 at b=4.84  n=1e+05: min 2.541e-06 at b=7.49  n=1e+06: min 3.817e-07 at b=11.4   [Thm process-cov-unknown with c1=0 (b ~ n^{1/3}); lower-order S terms b^{-4}, b^{-3} dropped]
+  r=2 bc     0.027741 n^-0.8;  b* = 0.7994 n^0.2  (b* < 2 for n < 98)
+             full criterion: n=1e+03: min 0.0001104 at b=3.18  n=1e+04: min 1.75e-05 at b=5.04  n=1e+05: min 2.774e-06 at b=7.99  n=1e+06: min 4.397e-07 at b=12.7   [OUTSIDE proved regime: b* ~ n^{1/5} violates sqrt(k)/b=O(1) of Thm rank-bias-correction; within the regime (b >~ n^{1/3}) the leading bias is o(variance): no interior optimum]
+  POT        0.027261 n^-0.6667;  b* = 0.4666 n^0.333  (b* < 1 for n < 9.84)
+             full criterion: n=1e+03: min 0.0002726 at b=4.67  n=1e+04: min 5.873e-05 at b=10.1  n=1e+05: min 1.265e-05 at b=21.7  n=1e+06: min 2.726e-06 at b=46.7   [BVZ Prop 4.1(i)]
+  r=2 id     0.013992 n^-0.6667;  b* = 0.2565 n^0.333  (b* < 2 for n < 474)
+             full criterion: n=1e+03: min 0.0001175 at b=2.47  n=1e+04: min 2.321e-05 at b=4.05  n=1e+05: min 5.706e-06 at b=9.69  n=1e+06: min 1.324e-06 at b=23.6   [Thm process-cov-unknown with c1=0 (b ~ n^{1/3}); lower-order S terms b^{-4}, b^{-3} dropped]
+  r=2 id bc  0.034053 n^-0.8;  b* = 0.7491 n^0.2  (b* < 2 for n < 136)
+             full criterion: n=1e+03: min 0.0001356 at b=2.98  n=1e+04: min 2.149e-05 at b=4.73  n=1e+05: min 3.405e-06 at b=7.49  n=1e+06: min 5.397e-07 at b=11.9   [OUTSIDE proved regime: b* ~ n^{1/5} violates sqrt(k)/b=O(1) of Thm rank-bias-correction; within the regime (b >~ n^{1/3}) the leading bias is o(variance): no interior optimum]
+  r=3        0.0039651 n^-0.6667;  b* = 0.09962 n^0.333  (b* < 3 for n < 2.73e+04)
+             full criterion: n=1e+03: min 0.0001033 at b=3.19  n=1e+04: min 1.548e-05 at b=4.85  n=1e+05: min 2.237e-06 at b=7.18  n=1e+06: min 3.041e-07 at b=10.1   [Thm process-cov-unknown with c1=0 (b ~ n^{1/3}); lower-order S terms b^{-4}, b^{-3} dropped]
+  r=3 bc     0.028443 n^-0.8;  b* = 0.8575 n^0.2  (b* < 3 for n < 524)
+             full criterion: n=1e+03: min 0.0001132 at b=3.41  n=1e+04: min 1.795e-05 at b=5.41  n=1e+05: min 2.844e-06 at b=8.58  n=1e+06: min 4.508e-07 at b=13.6   [OUTSIDE proved regime: b* ~ n^{1/5} violates sqrt(k)/b=O(1) of Thm rank-bias-correction; within the regime (b >~ n^{1/3}) the leading bias is o(variance): no interior optimum]
+  [WITHDRAWN 2026-11-18: terms below the o(1/b) remainder; heuristic only]
+  Archimax r=2: omitted-term ratio |2 b^{-3} B_SR + b^{-4} B_SS| / (b^{-2} B_RR) at leading b*(n):
+     n=1e+03: b*=0.495, ratio=5.37e+03
+     n=1e+04: b*=1.07, ratio=1.12e+03
+     n=1e+05: b*=2.3, ratio=225
+     n=1e+06: b*=4.95, ratio=40.6
+     n=1e+07: b*=10.7, ratio=5.11
+     n=1e+08: b*=23, ratio=0.584
+     omitted terms < 10% of the B_RR term for all b >= 703; leading b*(n) reaches it at n = 2.87e+12  (sign change of the omitted terms at b = 18.7)
+  [WITHDRAWN 2026-11-18: full-criterion ratios and crossings below are not supported for rho_b<-1 (Archimax) nor for GH r=2 at small b]
+  GH: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 1.6407, 1.7514, 2.8033, 6.0396;  crossings in [1e2,1e14]: none
+  GH: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 1.6284, 1.6284, 1.6284, 1.6284;  crossings in [1e2,1e14]: none
+  Joe: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 0.9701, 0.9701, 0.9701, 0.9701;  crossings in [1e2,1e14]: none
+  Joe: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 0.9564, 0.9564, 0.9564, 0.9564;  crossings in [1e2,1e14]: none
+  OPC: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 0.9426, 0.9426, 0.9426, 0.9426;  crossings in [1e2,1e14]: none
+  OPC: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 0.9564, 0.9564, 0.9564, 0.9564;  crossings in [1e2,1e14]: none
+  Archimax: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 0.9156, 0.8970, 0.8680, 0.8228;  crossings in [1e2,1e14]: 8.9e+10
+  Archimax: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 0.9477, 0.9477, 0.9477, 0.9477;  crossings in [1e2,1e14]: none
+
+================  K = [0.05, 0.95]  ================
+V:  r1=0.0340515  r2opt=0.0277177  r2id=0.0359231  r3opt=0.0264926  r3id=0.0367925  pot=0.0389045   ratios to r1: r2opt 0.8140, r3opt 0.7780, r3opt/r2opt 0.9558, r2id 1.0550, POT 1.1425
+--- GH
+  r=1        0.034052 n^-1;  b* = 1 n^0
+             full criterion: n=1e+03: min 3.405e-05 at b=1  n=1e+04: min 3.405e-06 at b=1  n=1e+05: min 3.405e-07 at b=1  n=1e+06: min 3.405e-08 at b=1   [Prop rank-maxima-branches(b), b=1]
+  r=2        0.002057 n^-0.6667;  b* = 0.04948 n^0.333  (b* < 2 for n < 6.61e+04)
+             full criterion: n=1e+03: min 5.586e-05 at b=2  n=1e+04: min 5.963e-06 at b=2  n=1e+05: min 9.548e-07 at b=2.3  n=1e+06: min 2.057e-07 at b=4.95   [Thm process-cov-unknown, c1 irrelevant (S=0), c2>0]
+  r=2 bc     no interior optimum
+             full criterion: n=1e+03: min 5.544e-05 at b=2  n=1e+04: min 5.544e-06 at b=2  n=1e+05: min 5.544e-07 at b=2  n=1e+06: min 5.544e-08 at b=2   [no leading bias; no interior optimum within sqrt(k)/b=O(1)]
+  POT        0.02724 n^-0.6667;  b* = 0.4668 n^0.333  (b* < 1 for n < 9.83)
+             full criterion: n=1e+03: min 0.0002724 at b=4.67  n=1e+04: min 5.869e-05 at b=10.1  n=1e+05: min 1.264e-05 at b=21.7  n=1e+06: min 2.724e-06 at b=46.7   [BVZ Prop 4.1(i)]
+  r=2 id     0.013814 n^-0.6667;  b* = 0.2564 n^0.333  (b* < 2 for n < 475)
+             full criterion: n=1e+03: min 0.0001381 at b=2.56  n=1e+04: min 2.976e-05 at b=5.52  n=1e+05: min 6.412e-06 at b=11.9  n=1e+06: min 1.381e-06 at b=25.6   [Thm process-cov-unknown, c1 irrelevant (S=0), c2>0]
+  r=2 id bc  no interior optimum
+             full criterion: n=1e+03: min 7.185e-05 at b=2  n=1e+04: min 7.185e-06 at b=2  n=1e+05: min 7.185e-07 at b=2  n=1e+06: min 7.185e-08 at b=2   [no leading bias; no interior optimum within sqrt(k)/b=O(1)]
+  r=3        0.0039607 n^-0.6667;  b* = 0.09967 n^0.333  (b* < 3 for n < 2.73e+04)
+             full criterion: n=1e+03: min 8.094e-05 at b=3  n=1e+04: min 9.405e-06 at b=3  n=1e+05: min 1.838e-06 at b=4.63  n=1e+06: min 3.961e-07 at b=9.97   [Thm process-cov-unknown, c1 irrelevant (S=0), c2>0]
+  r=3 bc     no interior optimum
+             full criterion: n=1e+03: min 7.948e-05 at b=3  n=1e+04: min 7.948e-06 at b=3  n=1e+05: min 7.948e-07 at b=3  n=1e+06: min 7.948e-08 at b=3   [no leading bias; no interior optimum within sqrt(k)/b=O(1)]
+--- Joe
+  r=1        0.027426 n^-0.6667;  b* = 0.537 n^0.333  (b* < 1 for n < 6.46)
+             full criterion: n=1e+03: min 0.0002743 at b=5.37  n=1e+04: min 5.909e-05 at b=11.6  n=1e+05: min 1.273e-05 at b=24.9  n=1e+06: min 2.743e-06 at b=53.7   [Prop rank-maxima-branches(a)]
+  r=2        0.026602 n^-0.6667;  b* = 0.6398 n^0.333  (b* < 2 for n < 30.5)
+             full criterion: n=1e+03: min 0.000266 at b=6.4  n=1e+04: min 5.731e-05 at b=13.8  n=1e+05: min 1.235e-05 at b=29.7  n=1e+06: min 2.66e-06 at b=64   [Thm process-cov-unknown]
+  r=2 bc     0.026226 n^-0.6667;  b* = 0.6308 n^0.333  (b* < 2 for n < 31.9)
+             full criterion: n=1e+03: min 0.0002623 at b=6.31  n=1e+04: min 5.65e-05 at b=13.6  n=1e+05: min 1.217e-05 at b=29.3  n=1e+06: min 2.623e-06 at b=63.1   [Thm rank-bias-correction]
+  POT        0.029005 n^-0.8;  b* = 0.5964 n^0.2  (b* < 1 for n < 13.2)
+             full criterion: n=1e+03: min 0.0001155 at b=2.37  n=1e+04: min 1.83e-05 at b=3.76  n=1e+05: min 2.901e-06 at b=5.96  n=1e+06: min 4.597e-07 at b=9.45   [BVZ Prop 4.1(i)]
+  r=2 id     0.035742 n^-0.6667;  b* = 0.6633 n^0.333  (b* < 2 for n < 27.4)
+             full criterion: n=1e+03: min 0.0003574 at b=6.63  n=1e+04: min 7.7e-05 at b=14.3  n=1e+05: min 1.659e-05 at b=30.8  n=1e+06: min 3.574e-06 at b=66.3   [Thm process-cov-unknown]
+  r=2 id bc  0.030981 n^-0.6667;  b* = 0.575 n^0.333  (b* < 2 for n < 42.1)
+             full criterion: n=1e+03: min 0.0003098 at b=5.75  n=1e+04: min 6.675e-05 at b=12.4  n=1e+05: min 1.438e-05 at b=26.7  n=1e+06: min 3.098e-06 at b=57.5   [Thm rank-bias-correction]
+  r=3        0.027613 n^-0.6667;  b* = 0.6949 n^0.333  (b* < 3 for n < 80.5)
+             full criterion: n=1e+03: min 0.0002761 at b=6.95  n=1e+04: min 5.949e-05 at b=15  n=1e+05: min 1.282e-05 at b=32.3  n=1e+06: min 2.761e-06 at b=69.5   [Thm process-cov-unknown]
+  r=3 bc     0.026609 n^-0.6667;  b* = 0.6696 n^0.333  (b* < 3 for n < 89.9)
+             full criterion: n=1e+03: min 0.0002661 at b=6.7  n=1e+04: min 5.733e-05 at b=14.4  n=1e+05: min 1.235e-05 at b=31.1  n=1e+06: min 2.661e-06 at b=67   [Thm rank-bias-correction]
+--- OPC
+  r=1        0.027426 n^-0.6667;  b* = 0.537 n^0.333  (b* < 1 for n < 6.46)
+             full criterion: n=1e+03: min 0.0002743 at b=5.37  n=1e+04: min 5.909e-05 at b=11.6  n=1e+05: min 1.273e-05 at b=24.9  n=1e+06: min 2.743e-06 at b=53.7   [Prop rank-maxima-branches(a)]
+  r=2        0.025848 n^-0.6667;  b* = 0.6217 n^0.333  (b* < 2 for n < 33.3)
+             full criterion: n=1e+03: min 0.0002585 at b=6.22  n=1e+04: min 5.569e-05 at b=13.4  n=1e+05: min 1.2e-05 at b=28.9  n=1e+06: min 2.585e-06 at b=62.2   [Thm process-cov-unknown]
+  r=2 bc     0.026226 n^-0.6667;  b* = 0.6308 n^0.333  (b* < 2 for n < 31.9)
+             full criterion: n=1e+03: min 0.0002623 at b=6.31  n=1e+04: min 5.65e-05 at b=13.6  n=1e+05: min 1.217e-05 at b=29.3  n=1e+06: min 2.623e-06 at b=63.1   [Thm rank-bias-correction]
+  POT        0.043241 n^-0.6667;  b* = 0.741 n^0.333  (b* < 1 for n < 2.46)
+             full criterion: n=1e+03: min 0.0004324 at b=7.41  n=1e+04: min 9.316e-05 at b=16  n=1e+05: min 2.007e-05 at b=34.4  n=1e+06: min 4.324e-06 at b=74.1   [BVZ Prop 4.1(i)]
+  r=2 id     0.026724 n^-0.6667;  b* = 0.4959 n^0.333  (b* < 2 for n < 65.6)
+             full criterion: n=1e+03: min 0.0002672 at b=4.96  n=1e+04: min 5.757e-05 at b=10.7  n=1e+05: min 1.24e-05 at b=23  n=1e+06: min 2.672e-06 at b=49.6   [Thm process-cov-unknown]
+  r=2 id bc  0.030981 n^-0.6667;  b* = 0.575 n^0.333  (b* < 2 for n < 42.1)
+             full criterion: n=1e+03: min 0.0003098 at b=5.75  n=1e+04: min 6.675e-05 at b=12.4  n=1e+05: min 1.438e-05 at b=26.7  n=1e+06: min 3.098e-06 at b=57.5   [Thm rank-bias-correction]
+  r=3        0.025587 n^-0.6667;  b* = 0.6439 n^0.333  (b* < 3 for n < 101)
+             full criterion: n=1e+03: min 0.0002559 at b=6.44  n=1e+04: min 5.513e-05 at b=13.9  n=1e+05: min 1.188e-05 at b=29.9  n=1e+06: min 2.559e-06 at b=64.4   [Thm process-cov-unknown]
+  r=3 bc     0.026609 n^-0.6667;  b* = 0.6696 n^0.333  (b* < 3 for n < 89.9)
+             full criterion: n=1e+03: min 0.0002661 at b=6.7  n=1e+04: min 5.733e-05 at b=14.4  n=1e+05: min 1.235e-05 at b=31.1  n=1e+06: min 2.661e-06 at b=67   [Thm rank-bias-correction]
+--- Archimax
+  r=1        0.029241 n^-0.8;  b* = 0.687 n^0.2  (b* < 1 for n < 6.54)
+             full criterion: n=1e+03: min 0.0001164 at b=2.73  n=1e+04: min 1.845e-05 at b=4.33  n=1e+05: min 2.924e-06 at b=6.87  n=1e+06: min 4.634e-07 at b=10.9   [Prop rank-maxima-branches(a): c1>0, no c2 condition]
+  r=2        0.002057 n^-0.6667;  b* = 0.04948 n^0.333  (b* < 2 for n < 6.61e+04)
+             full criterion: n=1e+03: min 0.0001066 at b=3.1  n=1e+04: min 1.655e-05 at b=4.84  n=1e+05: min 2.537e-06 at b=7.49  n=1e+06: min 3.812e-07 at b=11.4   [Thm process-cov-unknown with c1=0 (b ~ n^{1/3}); lower-order S terms b^{-4}, b^{-3} dropped]
+  r=2 bc     0.027707 n^-0.8;  b* = 0.7997 n^0.2  (b* < 2 for n < 97.9)
+             full criterion: n=1e+03: min 0.0001103 at b=3.18  n=1e+04: min 1.748e-05 at b=5.05  n=1e+05: min 2.771e-06 at b=8  n=1e+06: min 4.391e-07 at b=12.7   [OUTSIDE proved regime: b* ~ n^{1/5} violates sqrt(k)/b=O(1) of Thm rank-bias-correction; within the regime (b >~ n^{1/3}) the leading bias is o(variance): no interior optimum]
+  POT        0.02724 n^-0.6667;  b* = 0.4668 n^0.333  (b* < 1 for n < 9.83)
+             full criterion: n=1e+03: min 0.0002724 at b=4.67  n=1e+04: min 5.869e-05 at b=10.1  n=1e+05: min 1.264e-05 at b=21.7  n=1e+06: min 2.724e-06 at b=46.7   [BVZ Prop 4.1(i)]
+  r=2 id     0.013814 n^-0.6667;  b* = 0.2564 n^0.333  (b* < 2 for n < 475)
+             full criterion: n=1e+03: min 0.0001158 at b=2.47  n=1e+04: min 2.279e-05 at b=4.03  n=1e+05: min 5.62e-06 at b=9.64  n=1e+06: min 1.306e-06 at b=23.5   [Thm process-cov-unknown with c1=0 (b ~ n^{1/3}); lower-order S terms b^{-4}, b^{-3} dropped]
+  r=2 id bc  0.033721 n^-0.8;  b* = 0.7509 n^0.2  (b* < 2 for n < 134)
+             full criterion: n=1e+03: min 0.0001342 at b=2.99  n=1e+04: min 2.128e-05 at b=4.74  n=1e+05: min 3.372e-06 at b=7.51  n=1e+06: min 5.344e-07 at b=11.9   [OUTSIDE proved regime: b* ~ n^{1/5} violates sqrt(k)/b=O(1) of Thm rank-bias-correction; within the regime (b >~ n^{1/3}) the leading bias is o(variance): no interior optimum]
+  r=3        0.0039607 n^-0.6667;  b* = 0.09967 n^0.333  (b* < 3 for n < 2.73e+04)
+             full criterion: n=1e+03: min 0.0001032 at b=3.19  n=1e+04: min 1.546e-05 at b=4.85  n=1e+05: min 2.234e-06 at b=7.18  n=1e+06: min 3.036e-07 at b=10.1   [Thm process-cov-unknown with c1=0 (b ~ n^{1/3}); lower-order S terms b^{-4}, b^{-3} dropped]
+  r=3 bc     0.028406 n^-0.8;  b* = 0.8578 n^0.2  (b* < 3 for n < 523)
+             full criterion: n=1e+03: min 0.0001131 at b=3.41  n=1e+04: min 1.792e-05 at b=5.41  n=1e+05: min 2.841e-06 at b=8.58  n=1e+06: min 4.502e-07 at b=13.6   [OUTSIDE proved regime: b* ~ n^{1/5} violates sqrt(k)/b=O(1) of Thm rank-bias-correction; within the regime (b >~ n^{1/3}) the leading bias is o(variance): no interior optimum]
+  [WITHDRAWN 2026-11-18: terms below the o(1/b) remainder; heuristic only]
+  Archimax r=2: omitted-term ratio |2 b^{-3} B_SR + b^{-4} B_SS| / (b^{-2} B_RR) at leading b*(n):
+     n=1e+03: b*=0.495, ratio=5.37e+03
+     n=1e+04: b*=1.07, ratio=1.12e+03
+     n=1e+05: b*=2.3, ratio=225
+     n=1e+06: b*=4.95, ratio=40.6
+     n=1e+07: b*=10.7, ratio=5.11
+     n=1e+08: b*=23, ratio=0.585
+     omitted terms < 10% of the B_RR term for all b >= 703; leading b*(n) reaches it at n = 2.87e+12  (sign change of the omitted terms at b = 18.7)
+  [WITHDRAWN 2026-11-18: full-criterion ratios and crossings below are not supported for rho_b<-1 (Archimax) nor for GH r=2 at small b]
+  GH: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 1.6403, 1.7512, 2.8040, 6.0409;  crossings in [1e2,1e14]: none
+  GH: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 1.6280, 1.6280, 1.6280, 1.6280;  crossings in [1e2,1e14]: none
+  Joe: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 0.9699, 0.9699, 0.9699, 0.9699;  crossings in [1e2,1e14]: none
+  Joe: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 0.9562, 0.9562, 0.9562, 0.9562;  crossings in [1e2,1e14]: none
+  OPC: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 0.9425, 0.9425, 0.9425, 0.9425;  crossings in [1e2,1e14]: none
+  OPC: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 0.9562, 0.9562, 0.9562, 0.9562;  crossings in [1e2,1e14]: none
+  Archimax: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 0.9154, 0.8969, 0.8678, 0.8226;  crossings in [1e2,1e14]: 8.9e+10
+  Archimax: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 0.9475, 0.9475, 0.9475, 0.9475;  crossings in [1e2,1e14]: none
+
+================  K = [0.1, 0.9]  ================
+V:  r1=0.0337335  r2opt=0.0274266  r2id=0.0346227  r3opt=0.026204  r3id=0.0350705  pot=0.0385916   ratios to r1: r2opt 0.8130, r3opt 0.7768, r3opt/r2opt 0.9554, r2id 1.0264, POT 1.1440
+--- GH
+  r=1        0.033733 n^-1;  b* = 1 n^0
+             full criterion: n=1e+03: min 3.373e-05 at b=1  n=1e+04: min 3.373e-06 at b=1  n=1e+05: min 3.373e-07 at b=1  n=1e+06: min 3.373e-08 at b=1   [Prop rank-maxima-branches(b), b=1]
+  r=2        0.0020406 n^-0.6667;  b* = 0.0496 n^0.333  (b* < 2 for n < 6.56e+04)
+             full criterion: n=1e+03: min 5.527e-05 at b=2  n=1e+04: min 5.904e-06 at b=2  n=1e+05: min 9.471e-07 at b=2.3  n=1e+06: min 2.041e-07 at b=4.96   [Thm process-cov-unknown, c1 irrelevant (S=0), c2>0]
+  r=2 bc     no interior optimum
+             full criterion: n=1e+03: min 5.485e-05 at b=2  n=1e+04: min 5.485e-06 at b=2  n=1e+05: min 5.485e-07 at b=2  n=1e+06: min 5.485e-08 at b=2   [no leading bias; no interior optimum within sqrt(k)/b=O(1)]
+  POT        0.027085 n^-0.6667;  b* = 0.4679 n^0.333  (b* < 1 for n < 9.76)
+             full criterion: n=1e+03: min 0.0002709 at b=4.68  n=1e+04: min 5.835e-05 at b=10.1  n=1e+05: min 1.257e-05 at b=21.7  n=1e+06: min 2.709e-06 at b=46.8   [BVZ Prop 4.1(i)]
+  r=2 id     0.013131 n^-0.6667;  b* = 0.2528 n^0.333  (b* < 2 for n < 495)
+             full criterion: n=1e+03: min 0.0001313 at b=2.53  n=1e+04: min 2.829e-05 at b=5.45  n=1e+05: min 6.095e-06 at b=11.7  n=1e+06: min 1.313e-06 at b=25.3   [Thm process-cov-unknown, c1 irrelevant (S=0), c2>0]
+  r=2 id bc  no interior optimum
+             full criterion: n=1e+03: min 6.925e-05 at b=2  n=1e+04: min 6.925e-06 at b=2  n=1e+05: min 6.925e-07 at b=2  n=1e+06: min 6.925e-08 at b=2   [no leading bias; no interior optimum within sqrt(k)/b=O(1)]
+  r=3        0.0039287 n^-0.6667;  b* = 0.09995 n^0.333  (b* < 3 for n < 2.7e+04)
+             full criterion: n=1e+03: min 8.007e-05 at b=3  n=1e+04: min 9.315e-06 at b=3  n=1e+05: min 1.824e-06 at b=4.64  n=1e+06: min 3.929e-07 at b=10   [Thm process-cov-unknown, c1 irrelevant (S=0), c2>0]
+  r=3 bc     no interior optimum
+             full criterion: n=1e+03: min 7.861e-05 at b=3  n=1e+04: min 7.861e-06 at b=3  n=1e+05: min 7.861e-07 at b=3  n=1e+06: min 7.861e-08 at b=3   [no leading bias; no interior optimum within sqrt(k)/b=O(1)]
+--- Joe
+  r=1        0.027248 n^-0.6667;  b* = 0.5385 n^0.333  (b* < 1 for n < 6.4)
+             full criterion: n=1e+03: min 0.0002725 at b=5.38  n=1e+04: min 5.87e-05 at b=11.6  n=1e+05: min 1.265e-05 at b=25  n=1e+06: min 2.725e-06 at b=53.8   [Prop rank-maxima-branches(a)]
+  r=2        0.026409 n^-0.6667;  b* = 0.6419 n^0.333  (b* < 2 for n < 30.2)
+             full criterion: n=1e+03: min 0.0002641 at b=6.42  n=1e+04: min 5.69e-05 at b=13.8  n=1e+05: min 1.226e-05 at b=29.8  n=1e+06: min 2.641e-06 at b=64.2   [Thm process-cov-unknown]
+  r=2 bc     0.026036 n^-0.6667;  b* = 0.6329 n^0.333  (b* < 2 for n < 31.6)
+             full criterion: n=1e+03: min 0.0002604 at b=6.33  n=1e+04: min 5.609e-05 at b=13.6  n=1e+05: min 1.209e-05 at b=29.4  n=1e+06: min 2.604e-06 at b=63.3   [Thm rank-bias-correction]
+  POT        0.028812 n^-0.8;  b* = 0.5973 n^0.2  (b* < 1 for n < 13.2)
+             full criterion: n=1e+03: min 0.0001147 at b=2.38  n=1e+04: min 1.818e-05 at b=3.77  n=1e+05: min 2.881e-06 at b=5.97  n=1e+06: min 4.566e-07 at b=9.47   [BVZ Prop 4.1(i)]
+  r=2 id     0.03478 n^-0.6667;  b* = 0.6697 n^0.333  (b* < 2 for n < 26.6)
+             full criterion: n=1e+03: min 0.0003478 at b=6.7  n=1e+04: min 7.493e-05 at b=14.4  n=1e+05: min 1.614e-05 at b=31.1  n=1e+06: min 3.478e-06 at b=67   [Thm process-cov-unknown]
+  r=2 id bc  0.03022 n^-0.6667;  b* = 0.5819 n^0.333  (b* < 2 for n < 40.6)
+             full criterion: n=1e+03: min 0.0003022 at b=5.82  n=1e+04: min 6.511e-05 at b=12.5  n=1e+05: min 1.403e-05 at b=27  n=1e+06: min 3.022e-06 at b=58.2   [Thm rank-bias-correction]
+  r=3        0.027406 n^-0.6667;  b* = 0.6973 n^0.333  (b* < 3 for n < 79.7)
+             full criterion: n=1e+03: min 0.0002741 at b=6.97  n=1e+04: min 5.905e-05 at b=15  n=1e+05: min 1.272e-05 at b=32.4  n=1e+06: min 2.741e-06 at b=69.7   [Thm process-cov-unknown]
+  r=3 bc     0.026411 n^-0.6667;  b* = 0.6719 n^0.333  (b* < 3 for n < 89)
+             full criterion: n=1e+03: min 0.0002641 at b=6.72  n=1e+04: min 5.69e-05 at b=14.5  n=1e+05: min 1.226e-05 at b=31.2  n=1e+06: min 2.641e-06 at b=67.2   [Thm rank-bias-correction]
+--- OPC
+  r=1        0.027248 n^-0.6667;  b* = 0.5385 n^0.333  (b* < 1 for n < 6.4)
+             full criterion: n=1e+03: min 0.0002725 at b=5.38  n=1e+04: min 5.87e-05 at b=11.6  n=1e+05: min 1.265e-05 at b=25  n=1e+06: min 2.725e-06 at b=53.8   [Prop rank-maxima-branches(a)]
+  r=2        0.025662 n^-0.6667;  b* = 0.6238 n^0.333  (b* < 2 for n < 33)
+             full criterion: n=1e+03: min 0.0002566 at b=6.24  n=1e+04: min 5.529e-05 at b=13.4  n=1e+05: min 1.191e-05 at b=29  n=1e+06: min 2.566e-06 at b=62.4   [Thm process-cov-unknown]
+  r=2 bc     0.026036 n^-0.6667;  b* = 0.6329 n^0.333  (b* < 2 for n < 31.6)
+             full criterion: n=1e+03: min 0.0002604 at b=6.33  n=1e+04: min 5.609e-05 at b=13.6  n=1e+05: min 1.209e-05 at b=29.4  n=1e+06: min 2.604e-06 at b=63.3   [Thm rank-bias-correction]
+  POT        0.042995 n^-0.6667;  b* = 0.7427 n^0.333  (b* < 1 for n < 2.44)
+             full criterion: n=1e+03: min 0.00043 at b=7.43  n=1e+04: min 9.263e-05 at b=16  n=1e+05: min 1.996e-05 at b=34.5  n=1e+06: min 4.3e-06 at b=74.3   [BVZ Prop 4.1(i)]
+  r=2 id     0.026037 n^-0.6667;  b* = 0.5013 n^0.333  (b* < 2 for n < 63.5)
+             full criterion: n=1e+03: min 0.0002604 at b=5.01  n=1e+04: min 5.609e-05 at b=10.8  n=1e+05: min 1.209e-05 at b=23.3  n=1e+06: min 2.604e-06 at b=50.1   [Thm process-cov-unknown]
+  r=2 id bc  0.03022 n^-0.6667;  b* = 0.5819 n^0.333  (b* < 2 for n < 40.6)
+             full criterion: n=1e+03: min 0.0003022 at b=5.82  n=1e+04: min 6.511e-05 at b=12.5  n=1e+05: min 1.403e-05 at b=27  n=1e+06: min 3.022e-06 at b=58.2   [Thm rank-bias-correction]
+  r=3        0.025396 n^-0.6667;  b* = 0.6461 n^0.333  (b* < 3 for n < 100)
+             full criterion: n=1e+03: min 0.000254 at b=6.46  n=1e+04: min 5.471e-05 at b=13.9  n=1e+05: min 1.179e-05 at b=30  n=1e+06: min 2.54e-06 at b=64.6   [Thm process-cov-unknown]
+  r=3 bc     0.026411 n^-0.6667;  b* = 0.6719 n^0.333  (b* < 3 for n < 89)
+             full criterion: n=1e+03: min 0.0002641 at b=6.72  n=1e+04: min 5.69e-05 at b=14.5  n=1e+05: min 1.226e-05 at b=31.2  n=1e+06: min 2.641e-06 at b=67.2   [Thm rank-bias-correction]
+--- Archimax
+  r=1        0.029018 n^-0.8;  b* = 0.6882 n^0.2  (b* < 1 for n < 6.48)
+             full criterion: n=1e+03: min 0.0001155 at b=2.74  n=1e+04: min 1.831e-05 at b=4.34  n=1e+05: min 2.902e-06 at b=6.88  n=1e+06: min 4.599e-07 at b=10.9   [Prop rank-maxima-branches(a): c1>0, no c2 condition]
+  r=2        0.0020406 n^-0.6667;  b* = 0.0496 n^0.333  (b* < 2 for n < 6.56e+04)
+             full criterion: n=1e+03: min 0.0001057 at b=3.11  n=1e+04: min 1.641e-05 at b=4.85  n=1e+05: min 2.516e-06 at b=7.5  n=1e+06: min 3.779e-07 at b=11.4   [Thm process-cov-unknown with c1=0 (b ~ n^{1/3}); lower-order S terms b^{-4}, b^{-3} dropped]
+  r=2 bc     0.027471 n^-0.8;  b* = 0.8013 n^0.2  (b* < 2 for n < 96.9)
+             full criterion: n=1e+03: min 0.0001094 at b=3.19  n=1e+04: min 1.733e-05 at b=5.06  n=1e+05: min 2.747e-06 at b=8.01  n=1e+06: min 4.354e-07 at b=12.7   [OUTSIDE proved regime: b* ~ n^{1/5} violates sqrt(k)/b=O(1) of Thm rank-bias-correction; within the regime (b >~ n^{1/3}) the leading bias is o(variance): no interior optimum]
+  POT        0.027085 n^-0.6667;  b* = 0.4679 n^0.333  (b* < 1 for n < 9.76)
+             full criterion: n=1e+03: min 0.0002709 at b=4.68  n=1e+04: min 5.835e-05 at b=10.1  n=1e+05: min 1.257e-05 at b=21.7  n=1e+06: min 2.709e-06 at b=46.8   [BVZ Prop 4.1(i)]
+  r=2 id     0.013131 n^-0.6667;  b* = 0.2528 n^0.333  (b* < 2 for n < 495)
+             full criterion: n=1e+03: min 0.0001097 at b=2.46  n=1e+04: min 2.102e-05 at b=3.89  n=1e+05: min 5.256e-06 at b=9.22  n=1e+06: min 1.235e-06 at b=23   [Thm process-cov-unknown with c1=0 (b ~ n^{1/3}); lower-order S terms b^{-4}, b^{-3} dropped]
+  r=2 id bc  0.032735 n^-0.8;  b* = 0.7564 n^0.2  (b* < 2 for n < 129)
+             full criterion: n=1e+03: min 0.0001303 at b=3.01  n=1e+04: min 2.065e-05 at b=4.77  n=1e+05: min 3.273e-06 at b=7.56  n=1e+06: min 5.188e-07 at b=12   [OUTSIDE proved regime: b* ~ n^{1/5} violates sqrt(k)/b=O(1) of Thm rank-bias-correction; within the regime (b >~ n^{1/3}) the leading bias is o(variance): no interior optimum]
+  r=3        0.0039287 n^-0.6667;  b* = 0.09995 n^0.333  (b* < 3 for n < 2.7e+04)
+             full criterion: n=1e+03: min 0.0001023 at b=3.2  n=1e+04: min 1.532e-05 at b=4.86  n=1e+05: min 2.213e-06 at b=7.19  n=1e+06: min 3.007e-07 at b=10.2   [Thm process-cov-unknown with c1=0 (b ~ n^{1/3}); lower-order S terms b^{-4}, b^{-3} dropped]
+  r=3 bc     0.028156 n^-0.8;  b* = 0.8596 n^0.2  (b* < 3 for n < 518)
+             full criterion: n=1e+03: min 0.0001121 at b=3.42  n=1e+04: min 1.777e-05 at b=5.42  n=1e+05: min 2.816e-06 at b=8.6  n=1e+06: min 4.462e-07 at b=13.6   [OUTSIDE proved regime: b* ~ n^{1/5} violates sqrt(k)/b=O(1) of Thm rank-bias-correction; within the regime (b >~ n^{1/3}) the leading bias is o(variance): no interior optimum]
+  [WITHDRAWN 2026-11-18: terms below the o(1/b) remainder; heuristic only]
+  Archimax r=2: omitted-term ratio |2 b^{-3} B_SR + b^{-4} B_SS| / (b^{-2} B_RR) at leading b*(n):
+     n=1e+03: b*=0.496, ratio=5.36e+03
+     n=1e+04: b*=1.07, ratio=1.12e+03
+     n=1e+05: b*=2.3, ratio=224
+     n=1e+06: b*=4.96, ratio=40.4
+     n=1e+07: b*=10.7, ratio=5.08
+     n=1e+08: b*=23, ratio=0.589
+     omitted terms < 10% of the B_RR term for all b >= 704; leading b*(n) reaches it at n = 2.86e+12  (sign change of the omitted terms at b = 18.7)
+  [WITHDRAWN 2026-11-18: full-criterion ratios and crossings below are not supported for rho_b<-1 (Archimax) nor for GH r=2 at small b]
+  GH: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 1.6385, 1.7501, 2.8077, 6.0491;  crossings in [1e2,1e14]: none
+  GH: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 1.6261, 1.6261, 1.6261, 1.6261;  crossings in [1e2,1e14]: none
+  Joe: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 0.9692, 0.9692, 0.9692, 0.9692;  crossings in [1e2,1e14]: none
+  Joe: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 0.9555, 0.9555, 0.9555, 0.9555;  crossings in [1e2,1e14]: none
+  OPC: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 0.9418, 0.9418, 0.9418, 0.9418;  crossings in [1e2,1e14]: none
+  OPC: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 0.9555, 0.9555, 0.9555, 0.9555;  crossings in [1e2,1e14]: none
+  Archimax: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 0.9146, 0.8960, 0.8669, 0.8217;  crossings in [1e2,1e14]: 8.9e+10
+  Archimax: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 0.9467, 0.9467, 0.9467, 0.9467;  crossings in [1e2,1e14]: none
+
+================  K = [0.15, 0.85]  ================
+V:  r1=0.0328693  r2opt=0.0266657  r2id=0.0325826  r3opt=0.0254557  r3id=0.03258  pot=0.0377161   ratios to r1: r2opt 0.8113, r3opt 0.7745, r3opt/r2opt 0.9546, r2id 0.9913, POT 1.1475
+--- GH
+  r=1        0.032869 n^-1;  b* = 1 n^0
+             full criterion: n=1e+03: min 3.287e-05 at b=1  n=1e+04: min 3.287e-06 at b=1  n=1e+05: min 3.287e-07 at b=1  n=1e+06: min 3.287e-08 at b=1   [Prop rank-maxima-branches(b), b=1]
+  r=2        0.0019968 n^-0.6667;  b* = 0.04992 n^0.333  (b* < 2 for n < 6.43e+04)
+             full criterion: n=1e+03: min 5.375e-05 at b=2  n=1e+04: min 5.748e-06 at b=2  n=1e+05: min 9.268e-07 at b=2.32  n=1e+06: min 1.997e-07 at b=4.99   [Thm process-cov-unknown, c1 irrelevant (S=0), c2>0]
+  r=2 bc     no interior optimum
+             full criterion: n=1e+03: min 5.333e-05 at b=2  n=1e+04: min 5.333e-06 at b=2  n=1e+05: min 5.333e-07 at b=2  n=1e+06: min 5.333e-08 at b=2   [no leading bias; no interior optimum within sqrt(k)/b=O(1)]
+  POT        0.026621 n^-0.6667;  b* = 0.4705 n^0.333  (b* < 1 for n < 9.6)
+             full criterion: n=1e+03: min 0.0002662 at b=4.71  n=1e+04: min 5.735e-05 at b=10.1  n=1e+05: min 1.236e-05 at b=21.8  n=1e+06: min 2.662e-06 at b=47.1   [BVZ Prop 4.1(i)]
+  r=2 id     0.01192 n^-0.6667;  b* = 0.2439 n^0.333  (b* < 2 for n < 551)
+             full criterion: n=1e+03: min 0.0001192 at b=2.44  n=1e+04: min 2.568e-05 at b=5.25  n=1e+05: min 5.533e-06 at b=11.3  n=1e+06: min 1.192e-06 at b=24.4   [Thm process-cov-unknown, c1 irrelevant (S=0), c2>0]
+  r=2 id bc  no interior optimum
+             full criterion: n=1e+03: min 6.517e-05 at b=2  n=1e+04: min 6.517e-06 at b=2  n=1e+05: min 6.517e-07 at b=2  n=1e+06: min 6.517e-08 at b=2   [no leading bias; no interior optimum within sqrt(k)/b=O(1)]
+  r=3        0.0038417 n^-0.6667;  b* = 0.1006 n^0.333  (b* < 3 for n < 2.65e+04)
+             full criterion: n=1e+03: min 7.781e-05 at b=3  n=1e+04: min 9.077e-06 at b=3  n=1e+05: min 1.783e-06 at b=4.67  n=1e+06: min 3.842e-07 at b=10.1   [Thm process-cov-unknown, c1 irrelevant (S=0), c2>0]
+  r=3 bc     no interior optimum
+             full criterion: n=1e+03: min 7.637e-05 at b=3  n=1e+04: min 7.637e-06 at b=3  n=1e+05: min 7.637e-07 at b=3  n=1e+06: min 7.637e-08 at b=3   [no leading bias; no interior optimum within sqrt(k)/b=O(1)]
+--- Joe
+  r=1        0.026735 n^-0.6667;  b* = 0.5422 n^0.333  (b* < 1 for n < 6.27)
+             full criterion: n=1e+03: min 0.0002673 at b=5.42  n=1e+04: min 5.76e-05 at b=11.7  n=1e+05: min 1.241e-05 at b=25.2  n=1e+06: min 2.673e-06 at b=54.2   [Prop rank-maxima-branches(a)]
+  r=2        0.025879 n^-0.6667;  b* = 0.647 n^0.333  (b* < 2 for n < 29.5)
+             full criterion: n=1e+03: min 0.0002588 at b=6.47  n=1e+04: min 5.575e-05 at b=13.9  n=1e+05: min 1.201e-05 at b=30  n=1e+06: min 2.588e-06 at b=64.7   [Thm process-cov-unknown]
+  r=2 bc     0.025514 n^-0.6667;  b* = 0.6379 n^0.333  (b* < 2 for n < 30.8)
+             full criterion: n=1e+03: min 0.0002551 at b=6.38  n=1e+04: min 5.497e-05 at b=13.7  n=1e+05: min 1.184e-05 at b=29.6  n=1e+06: min 2.551e-06 at b=63.8   [Thm rank-bias-correction]
+  POT        0.02825 n^-0.8;  b* = 0.5992 n^0.2  (b* < 1 for n < 12.9)
+             full criterion: n=1e+03: min 0.0001125 at b=2.39  n=1e+04: min 1.782e-05 at b=3.78  n=1e+05: min 2.825e-06 at b=5.99  n=1e+06: min 4.477e-07 at b=9.5   [BVZ Prop 4.1(i)]
+  r=2 id     0.033141 n^-0.6667;  b* = 0.6781 n^0.333  (b* < 2 for n < 25.7)
+             full criterion: n=1e+03: min 0.0003314 at b=6.78  n=1e+04: min 7.14e-05 at b=14.6  n=1e+05: min 1.538e-05 at b=31.5  n=1e+06: min 3.314e-06 at b=67.8   [Thm process-cov-unknown]
+  r=2 id bc  0.028966 n^-0.6667;  b* = 0.5927 n^0.333  (b* < 2 for n < 38.4)
+             full criterion: n=1e+03: min 0.0002897 at b=5.93  n=1e+04: min 6.24e-05 at b=12.8  n=1e+05: min 1.344e-05 at b=27.5  n=1e+06: min 2.897e-06 at b=59.3   [Thm rank-bias-correction]
+  r=3        0.026843 n^-0.6667;  b* = 0.703 n^0.333  (b* < 3 for n < 77.7)
+             full criterion: n=1e+03: min 0.0002684 at b=7.03  n=1e+04: min 5.783e-05 at b=15.1  n=1e+05: min 1.246e-05 at b=32.6  n=1e+06: min 2.684e-06 at b=70.3   [Thm process-cov-unknown]
+  r=3 bc     0.02587 n^-0.6667;  b* = 0.6775 n^0.333  (b* < 3 for n < 86.8)
+             full criterion: n=1e+03: min 0.0002587 at b=6.78  n=1e+04: min 5.574e-05 at b=14.6  n=1e+05: min 1.201e-05 at b=31.4  n=1e+06: min 2.587e-06 at b=67.8   [Thm rank-bias-correction]
+--- OPC
+  r=1        0.026735 n^-0.6667;  b* = 0.5422 n^0.333  (b* < 1 for n < 6.27)
+             full criterion: n=1e+03: min 0.0002673 at b=5.42  n=1e+04: min 5.76e-05 at b=11.7  n=1e+05: min 1.241e-05 at b=25.2  n=1e+06: min 2.673e-06 at b=54.2   [Prop rank-maxima-branches(a)]
+  r=2        0.025148 n^-0.6667;  b* = 0.6287 n^0.333  (b* < 2 for n < 32.2)
+             full criterion: n=1e+03: min 0.0002515 at b=6.29  n=1e+04: min 5.418e-05 at b=13.5  n=1e+05: min 1.167e-05 at b=29.2  n=1e+06: min 2.515e-06 at b=62.9   [Thm process-cov-unknown]
+  r=2 bc     0.025514 n^-0.6667;  b* = 0.6379 n^0.333  (b* < 2 for n < 30.8)
+             full criterion: n=1e+03: min 0.0002551 at b=6.38  n=1e+04: min 5.497e-05 at b=13.7  n=1e+05: min 1.184e-05 at b=29.6  n=1e+06: min 2.551e-06 at b=63.8   [Thm rank-bias-correction]
+  POT        0.042257 n^-0.6667;  b* = 0.7469 n^0.333  (b* < 1 for n < 2.4)
+             full criterion: n=1e+03: min 0.0004226 at b=7.47  n=1e+04: min 9.104e-05 at b=16.1  n=1e+05: min 1.961e-05 at b=34.7  n=1e+06: min 4.226e-06 at b=74.7   [BVZ Prop 4.1(i)]
+  r=2 id     0.024983 n^-0.6667;  b* = 0.5112 n^0.333  (b* < 2 for n < 59.9)
+             full criterion: n=1e+03: min 0.0002498 at b=5.11  n=1e+04: min 5.382e-05 at b=11  n=1e+05: min 1.16e-05 at b=23.7  n=1e+06: min 2.498e-06 at b=51.1   [Thm process-cov-unknown]
+  r=2 id bc  0.028966 n^-0.6667;  b* = 0.5927 n^0.333  (b* < 2 for n < 38.4)
+             full criterion: n=1e+03: min 0.0002897 at b=5.93  n=1e+04: min 6.24e-05 at b=12.8  n=1e+05: min 1.344e-05 at b=27.5  n=1e+06: min 2.897e-06 at b=59.3   [Thm rank-bias-correction]
+  r=3        0.024878 n^-0.6667;  b* = 0.6515 n^0.333  (b* < 3 for n < 97.6)
+             full criterion: n=1e+03: min 0.0002488 at b=6.52  n=1e+04: min 5.36e-05 at b=14  n=1e+05: min 1.155e-05 at b=30.2  n=1e+06: min 2.488e-06 at b=65.2   [Thm process-cov-unknown]
+  r=3 bc     0.02587 n^-0.6667;  b* = 0.6775 n^0.333  (b* < 3 for n < 86.8)
+             full criterion: n=1e+03: min 0.0002587 at b=6.78  n=1e+04: min 5.574e-05 at b=14.6  n=1e+05: min 1.201e-05 at b=31.4  n=1e+06: min 2.587e-06 at b=67.8   [Thm rank-bias-correction]
+--- Archimax
+  r=1        0.028395 n^-0.8;  b* = 0.6911 n^0.2  (b* < 1 for n < 6.34)
+             full criterion: n=1e+03: min 0.000113 at b=2.75  n=1e+04: min 1.792e-05 at b=4.36  n=1e+05: min 2.839e-06 at b=6.91  n=1e+06: min 4.5e-07 at b=11   [Prop rank-maxima-branches(a): c1>0, no c2 condition]
+  r=2        0.0019968 n^-0.6667;  b* = 0.04992 n^0.333  (b* < 2 for n < 6.43e+04)
+             full criterion: n=1e+03: min 0.0001032 at b=3.12  n=1e+04: min 1.603e-05 at b=4.88  n=1e+05: min 2.457e-06 at b=7.54  n=1e+06: min 3.691e-07 at b=11.5   [Thm process-cov-unknown with c1=0 (b ~ n^{1/3}); lower-order S terms b^{-4}, b^{-3} dropped]
+  r=2 bc     0.026839 n^-0.8;  b* = 0.8052 n^0.2  (b* < 2 for n < 94.5)
+             full criterion: n=1e+03: min 0.0001068 at b=3.21  n=1e+04: min 1.693e-05 at b=5.08  n=1e+05: min 2.684e-06 at b=8.05  n=1e+06: min 4.254e-07 at b=12.8   [OUTSIDE proved regime: b* ~ n^{1/5} violates sqrt(k)/b=O(1) of Thm rank-bias-correction; within the regime (b >~ n^{1/3}) the leading bias is o(variance): no interior optimum]
+  POT        0.026621 n^-0.6667;  b* = 0.4705 n^0.333  (b* < 1 for n < 9.6)
+             full criterion: n=1e+03: min 0.0002662 at b=4.71  n=1e+04: min 5.735e-05 at b=10.1  n=1e+05: min 1.236e-05 at b=21.8  n=1e+06: min 2.662e-06 at b=47.1   [BVZ Prop 4.1(i)]
+  r=2 id     0.01192 n^-0.6667;  b* = 0.2439 n^0.333  (b* < 2 for n < 551)
+             full criterion: n=1e+03: min 0.0001002 at b=2.46  n=1e+04: min 1.8e-05 at b=3.69  n=1e+05: min 4.574e-06 at b=8.19  n=1e+06: min 1.106e-06 at b=21.7   [Thm process-cov-unknown with c1=0 (b ~ n^{1/3}); lower-order S terms b^{-4}, b^{-3} dropped]
+  r=2 id bc  0.031147 n^-0.8;  b* = 0.7647 n^0.2  (b* < 2 for n < 122)
+             full criterion: n=1e+03: min 0.000124 at b=3.04  n=1e+04: min 1.965e-05 at b=4.83  n=1e+05: min 3.115e-06 at b=7.65  n=1e+06: min 4.936e-07 at b=12.1   [OUTSIDE proved regime: b* ~ n^{1/5} violates sqrt(k)/b=O(1) of Thm rank-bias-correction; within the regime (b >~ n^{1/3}) the leading bias is o(variance): no interior optimum]
+  r=3        0.0038417 n^-0.6667;  b* = 0.1006 n^0.333  (b* < 3 for n < 2.65e+04)
+             full criterion: n=1e+03: min 9.983e-05 at b=3.21  n=1e+04: min 1.495e-05 at b=4.88  n=1e+05: min 2.159e-06 at b=7.22  n=1e+06: min 2.93e-07 at b=10.2   [Thm process-cov-unknown with c1=0 (b ~ n^{1/3}); lower-order S terms b^{-4}, b^{-3} dropped]
+  r=3 bc     0.027495 n^-0.8;  b* = 0.8641 n^0.2  (b* < 3 for n < 504)
+             full criterion: n=1e+03: min 0.0001095 at b=3.44  n=1e+04: min 1.735e-05 at b=5.45  n=1e+05: min 2.749e-06 at b=8.64  n=1e+06: min 4.358e-07 at b=13.7   [OUTSIDE proved regime: b* ~ n^{1/5} violates sqrt(k)/b=O(1) of Thm rank-bias-correction; within the regime (b >~ n^{1/3}) the leading bias is o(variance): no interior optimum]
+  [WITHDRAWN 2026-11-18: terms below the o(1/b) remainder; heuristic only]
+  Archimax r=2: omitted-term ratio |2 b^{-3} B_SR + b^{-4} B_SS| / (b^{-2} B_RR) at leading b*(n):
+     n=1e+03: b*=0.499, ratio=5.31e+03
+     n=1e+04: b*=1.08, ratio=1.11e+03
+     n=1e+05: b*=2.32, ratio=222
+     n=1e+06: b*=4.99, ratio=40.1
+     n=1e+07: b*=10.8, ratio=5.01
+     n=1e+08: b*=23.2, ratio=0.598
+     omitted terms < 10% of the B_RR term for all b >= 707; leading b*(n) reaches it at n = 2.84e+12  (sign change of the omitted terms at b = 18.7)
+  [WITHDRAWN 2026-11-18: full-criterion ratios and crossings below are not supported for rho_b<-1 (Archimax) nor for GH r=2 at small b]
+  GH: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 1.6351, 1.7487, 2.8197, 6.0748;  crossings in [1e2,1e14]: none
+  GH: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 1.6225, 1.6225, 1.6225, 1.6225;  crossings in [1e2,1e14]: none
+  Joe: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 0.9680, 0.9680, 0.9680, 0.9680;  crossings in [1e2,1e14]: none
+  Joe: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 0.9544, 0.9544, 0.9544, 0.9544;  crossings in [1e2,1e14]: none
+  OPC: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 0.9406, 0.9406, 0.9406, 0.9406;  crossings in [1e2,1e14]: none
+  OPC: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 0.9544, 0.9544, 0.9544, 0.9544;  crossings in [1e2,1e14]: none
+  Archimax: full-criterion min ratio r=2/r=1 at n=1e3,1e4,1e5,1e6: 0.9131, 0.8945, 0.8653, 0.8201;  crossings in [1e2,1e14]: 8.9e+10
+  Archimax: full-criterion min ratio r=2 bc/r=1 at n=1e3,1e4,1e5,1e6: 0.9452, 0.9452, 0.9452, 0.9452;  crossings in [1e2,1e14]: none
+wrote ../../tables/sec7-table-{main,bstar,supp}-d015.tex
+wrote ../outputs/sec7-table-{main,bstar,supp}-d001.tex
+r=3 columns in supplementary table: included

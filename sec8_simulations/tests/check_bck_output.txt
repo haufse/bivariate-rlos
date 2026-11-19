@@ -1,0 +1,15 @@
+PASS  rank_bootstrap_cov_means covariances == rank_bootstrap_covariances (bitwise): max diff 0.0e+00, means shape (50, 17, 4)
+PASS  covariance of the returned means == returned covariances: 0.0e+00
+PASS  k*bias-hat on K, r1 (k=500, B=2000): -0.306 +- 0.092 vs eta -0.28
+PASS  k*bias-hat on K, id (k=500, B=2000): -0.975 +- 0.091 vs eta -0.95
+PASS  k*bias-hat on K, opt (k=500, B=2000): -1.181 +- 0.080 vs eta -1.19
+   (10s)
+PASS  bck: only the *_bck labels are written: ['r1_bck', 'r2_eff_bceq_bck', 'r2_eff_bck', 'r2_id_bck', 'r2_or_bck']
+PASS  bck: all *_bck values finite: 25 rows
+PASS  bck: recomputed r1/r2_id/r2_eff/r2_eff_bceq == full-run shards (rep 0, all b, t=0.5): max |diff| 4.9e-11
+   bias-hat on K x k (one dataset): [[-0.71, -1.58, -1.5, -1.12], [-0.47, -1.21, -1.07, -0.98], [-0.46, -0.96, -1.01, -0.91], [-0.5, -1.17, -1.15, -1.05], [-0.41, -1.14, -1.01, -0.91]] (5s)
+PASS  r=3 oracle cache: r=2 sub-block == r=2 cache: 2.9e-14
+PASS  r3or: only r3_or, r3_or_bceq written, finite: ['r3_or', 'r3_or_bceq']
+PASS  r3or: recomputed r3_eff == full-run r3 shard (rep 0, b=80, t=0.5): 0.0e+00
+
+11/11 checks passed

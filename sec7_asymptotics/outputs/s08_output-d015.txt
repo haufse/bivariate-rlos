@@ -1,0 +1,16 @@
+theta=1: endpoint behaviour, RE_2 and RE_3 at the smallest grid nodes: t=1.99e-04: 0.7857/0.7111, t=2.37e-03: 0.7854/0.7109, t=5.92e-03: 0.7850/0.7107, t=1.08e-02: 0.7845/0.7103, t=5.10e-02: 0.7801/0.7072
+theta=1.25: endpoint behaviour, RE_2 and RE_3 at the smallest grid nodes: t=1.99e-04: 0.9840/0.9754, t=2.37e-03: 0.9690/0.9535, t=5.92e-03: 0.9594/0.9404, t=1.08e-02: 0.9510/0.9293, t=5.10e-02: 0.9171/0.8868
+theta=1.5: endpoint behaviour, RE_2 and RE_3 at the smallest grid nodes: t=1.99e-04: 0.9986/0.9978, t=2.37e-03: 0.9931/0.9905, t=5.92e-03: 0.9869/0.9829, t=1.08e-02: 0.9798/0.9744, t=5.10e-02: 0.9409/0.9282
+theta=2: endpoint behaviour, RE_2 and RE_3 at the smallest grid nodes: t=1.99e-04: 0.9997/0.9997, t=2.37e-03: 0.9968/0.9968, t=5.92e-03: 0.9922/0.9920, t=1.08e-02: 0.9860/0.9856, t=5.10e-02: 0.9413/0.9373
+theta=3: endpoint behaviour, RE_2 and RE_3 at the smallest grid nodes: t=1.99e-04: 0.9997/0.9997, t=2.37e-03: 0.9971/0.9971, t=5.92e-03: 0.9928/0.9928, t=1.08e-02: 0.9870/0.9868, t=5.10e-02: 0.9402/0.9372
+theta=1: A(1/2)=1.0000  V2/V1=0.7607  V3/V1=0.6889  (T=[0.15,0.85], interpolated panel: True)
+theta=1.1: A(1/2)=0.9389  V2/V1=0.8219  V3/V1=0.7657  (T=[0.15,0.85], interpolated panel: True)
+theta=1.25: A(1/2)=0.8706  V2/V1=0.8490  V3/V1=0.8042  (T=[0.15,0.85], interpolated panel: True)
+theta=1.5: A(1/2)=0.7937  V2/V1=0.8467  V3/V1=0.8102  (T=[0.15,0.85], interpolated panel: True)
+theta=1.75: A(1/2)=0.7430  V2/V1=0.8298  V3/V1=0.7949  (T=[0.15,0.85], interpolated panel: True)
+theta=2: A(1/2)=0.7071  V2/V1=0.8113  V3/V1=0.7745  (T=[0.15,0.85], interpolated panel: True)
+theta=2.5: A(1/2)=0.6598  V2/V1=0.7796  V3/V1=0.7353  (T=[0.15,0.85], interpolated panel: True)
+theta=3: A(1/2)=0.6300  V2/V1=0.7560  V3/V1=0.7037  (T=[0.15,0.85], interpolated panel: True)
+theta=4: A(1/2)=0.5946  V2/V1=0.7246  V3/V1=0.6595  (T=[0.15,0.85], interpolated panel: True)
+theta=6: A(1/2)=0.5612  V2/V1=0.6924  V3/V1=0.6116  (T=[0.15,0.85], interpolated panel: True)
+wrote ../../figures/fig71-efficiency-d015.pdf

@@ -1,0 +1,148 @@
+('full', 'main', 'M1', 1000): rows 56000, cells 56, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M1', 1000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M1', 5000): rows 70000, cells 70, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M1', 5000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('bck', 'main', 'M1', 5000): rows 25000, cells 25, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M1', 10000): rows 84000, cells 84, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M1', 10000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('bck', 'main', 'M1', 10000): rows 30000, cells 30, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M1', 20000): rows 98000, cells 98, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M1', 20000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('bck', 'main', 'M1', 20000): rows 35000, cells 35, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M1', 100000): rows 84000, cells 84, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M1', 100000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('bck', 'main', 'M1', 100000): rows 30000, cells 30, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M2', 1000): rows 56000, cells 56, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M2', 1000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M2', 5000): rows 70000, cells 70, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M2', 5000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('bck', 'main', 'M2', 5000): rows 25000, cells 25, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M2', 10000): rows 84000, cells 84, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M2', 10000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('bck', 'main', 'M2', 10000): rows 30000, cells 30, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M2', 20000): rows 98000, cells 98, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M2', 20000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('bck', 'main', 'M2', 20000): rows 35000, cells 35, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M2', 100000): rows 84000, cells 84, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M2', 100000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('bck', 'main', 'M2', 100000): rows 30000, cells 30, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M3', 1000): rows 56000, cells 56, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M3', 1000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M3', 5000): rows 70000, cells 70, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M3', 5000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('bck', 'main', 'M3', 5000): rows 25000, cells 25, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M3', 10000): rows 84000, cells 84, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M3', 10000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('bck', 'main', 'M3', 10000): rows 30000, cells 30, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M3', 20000): rows 98000, cells 98, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M3', 20000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('bck', 'main', 'M3', 20000): rows 35000, cells 35, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M3', 100000): rows 84000, cells 84, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M3', 100000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('bck', 'main', 'M3', 100000): rows 30000, cells 30, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M4', 1000): rows 56000, cells 56, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M4', 1000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M4', 5000): rows 70000, cells 70, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M4', 5000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('bck', 'main', 'M4', 5000): rows 25000, cells 25, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M4', 10000): rows 84000, cells 84, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M4', 10000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('bck', 'main', 'M4', 10000): rows 30000, cells 30, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M4', 20000): rows 98000, cells 98, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M4', 20000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('bck', 'main', 'M4', 20000): rows 35000, cells 35, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M4', 100000): rows 84000, cells 84, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M4', 100000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('bck', 'main', 'M4', 100000): rows 30000, cells 30, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('fineb', 'main', 'M2', 10000): rows 196000, cells 196, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('fineb', 'main', 'M3', 10000): rows 196000, cells 196, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('fineb', 'main', 'M4', 10000): rows 196000, cells 196, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('fineb', 'main', 'M2', 100000): rows 98000, cells 98, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('fineb', 'main', 'M3', 100000): rows 98000, cells 98, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M5', 1000): rows 56000, cells 56, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M5', 1000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M5', 5000): rows 70000, cells 70, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M5', 5000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M5', 10000): rows 84000, cells 84, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M5', 10000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'main', 'M5', 20000): rows 98000, cells 98, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'main', 'M5', 20000): rows 42000, cells 42, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'r3', 'M1', 10000): rows 66000, cells 66, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'r3', 'M1', 10000): rows 22000, cells 22, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('full', 'r3', 'M2', 10000): rows 66000, cells 66, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('smallb', 'r3', 'M2', 10000): rows 22000, cells 22, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+('r3or', 'r3', 'M1', 10000): rows 10000, cells 10, incomplete cells 0, non-finite (non-inv) 0, fail_pilot 0, fail_other 0
+
+recomputed standard estimates (chk_*_0.50) vs stored full-run estimates:
+  ('bck', 'main', 'M1', 5000) r1: n=5000 max|diff|=0.00e+00
+  ('bck', 'main', 'M1', 5000) r2_id: n=5000 max|diff|=0.00e+00
+  ('bck', 'main', 'M1', 5000) r2_eff: n=5000 max|diff|=0.00e+00
+  ('bck', 'main', 'M1', 5000) r2_eff_bceq: n=5000 max|diff|=0.00e+00
+  ('bck', 'main', 'M1', 10000) r1: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M1', 10000) r2_id: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M1', 10000) r2_eff: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M1', 10000) r2_eff_bceq: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M1', 20000) r1: n=7000 max|diff|=0.00e+00
+  ('bck', 'main', 'M1', 20000) r2_id: n=7000 max|diff|=0.00e+00
+  ('bck', 'main', 'M1', 20000) r2_eff: n=7000 max|diff|=0.00e+00
+  ('bck', 'main', 'M1', 20000) r2_eff_bceq: n=7000 max|diff|=0.00e+00
+  ('bck', 'main', 'M1', 100000) r1: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M1', 100000) r2_id: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M1', 100000) r2_eff: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M1', 100000) r2_eff_bceq: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M2', 5000) r1: n=5000 max|diff|=0.00e+00
+  ('bck', 'main', 'M2', 5000) r2_id: n=5000 max|diff|=0.00e+00
+  ('bck', 'main', 'M2', 5000) r2_eff: n=5000 max|diff|=0.00e+00
+  ('bck', 'main', 'M2', 5000) r2_eff_bceq: n=5000 max|diff|=0.00e+00
+  ('bck', 'main', 'M2', 10000) r1: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M2', 10000) r2_id: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M2', 10000) r2_eff: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M2', 10000) r2_eff_bceq: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M2', 20000) r1: n=7000 max|diff|=0.00e+00
+  ('bck', 'main', 'M2', 20000) r2_id: n=7000 max|diff|=0.00e+00
+  ('bck', 'main', 'M2', 20000) r2_eff: n=7000 max|diff|=0.00e+00
+  ('bck', 'main', 'M2', 20000) r2_eff_bceq: n=7000 max|diff|=0.00e+00
+  ('bck', 'main', 'M2', 100000) r1: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M2', 100000) r2_id: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M2', 100000) r2_eff: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M2', 100000) r2_eff_bceq: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M3', 5000) r1: n=5000 max|diff|=0.00e+00
+  ('bck', 'main', 'M3', 5000) r2_id: n=5000 max|diff|=0.00e+00
+  ('bck', 'main', 'M3', 5000) r2_eff: n=5000 max|diff|=0.00e+00
+  ('bck', 'main', 'M3', 5000) r2_eff_bceq: n=5000 max|diff|=0.00e+00
+  ('bck', 'main', 'M3', 10000) r1: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M3', 10000) r2_id: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M3', 10000) r2_eff: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M3', 10000) r2_eff_bceq: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M3', 20000) r1: n=7000 max|diff|=0.00e+00
+  ('bck', 'main', 'M3', 20000) r2_id: n=7000 max|diff|=0.00e+00
+  ('bck', 'main', 'M3', 20000) r2_eff: n=7000 max|diff|=0.00e+00
+  ('bck', 'main', 'M3', 20000) r2_eff_bceq: n=7000 max|diff|=0.00e+00
+  ('bck', 'main', 'M3', 100000) r1: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M3', 100000) r2_id: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M3', 100000) r2_eff: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M3', 100000) r2_eff_bceq: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M4', 5000) r1: n=5000 max|diff|=0.00e+00
+  ('bck', 'main', 'M4', 5000) r2_id: n=5000 max|diff|=0.00e+00
+  ('bck', 'main', 'M4', 5000) r2_eff: n=5000 max|diff|=0.00e+00
+  ('bck', 'main', 'M4', 5000) r2_eff_bceq: n=5000 max|diff|=0.00e+00
+  ('bck', 'main', 'M4', 10000) r1: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M4', 10000) r2_id: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M4', 10000) r2_eff: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M4', 10000) r2_eff_bceq: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M4', 20000) r1: n=7000 max|diff|=0.00e+00
+  ('bck', 'main', 'M4', 20000) r2_id: n=7000 max|diff|=0.00e+00
+  ('bck', 'main', 'M4', 20000) r2_eff: n=7000 max|diff|=0.00e+00
+  ('bck', 'main', 'M4', 20000) r2_eff_bceq: n=7000 max|diff|=0.00e+00
+  ('bck', 'main', 'M4', 100000) r1: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M4', 100000) r2_id: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M4', 100000) r2_eff: n=6000 max|diff|=0.00e+00
+  ('bck', 'main', 'M4', 100000) r2_eff_bceq: n=6000 max|diff|=0.00e+00
+  ('r3or', 'r3', 'M1', 10000) r1: n=5000 max|diff|=0.00e+00
+  ('r3or', 'r3', 'M1', 10000) r3_id: n=5000 max|diff|=0.00e+00
+  ('r3or', 'r3', 'M1', 10000) r3_eff: n=5000 max|diff|=0.00e+00
+  ('r3or', 'r3', 'M1', 10000) r3_eff_bceq: n=5000 max|diff|=0.00e+00
+
+pairing: r1 of exp r3 vs exp main (same reps, common b), max |diff| over t:
+  M1: 8000 pairs, b=[3, 4, 5, 10, 20, 40, 80, 160], max|diff|=0.00e+00
+  M2: 8000 pairs, b=[3, 4, 5, 10, 20, 40, 80, 160], max|diff|=0.00e+00

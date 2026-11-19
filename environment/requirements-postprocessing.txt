@@ -1,0 +1,5 @@
+# Section 8 post-processing (figures.py) and checks, in addition to requirements-sec8.txt.
+# figures.py and the Section 7 figure scripts use text.usetex with newtxtext/newtxmath
+# (a LaTeX installation is required; TeX Live 2022 was used).
+matplotlib==3.10.0
+pytest

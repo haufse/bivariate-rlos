@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+# raw per-replication Monte Carlo shards (about 490 MB; regenerate with sec8_simulations/run.py)
+raw_results/
+# local caches (parquet cache of the follow-up loader, numba cache)
+.cache/
+# large intermediate of bias_analysis/investigation/scripts/s01_pointwise_summary.py (180 MB)
+bias_analysis/investigation/outputs/s01_errors.npz
+# PNG previews written by bias_analysis/followup/scripts/run_all.sh
+bias_analysis/followup/figs/*.png
+# Slurm logs
+logs/
+*.out

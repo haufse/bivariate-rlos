@@ -1,0 +1,46 @@
+(a) calR general formula vs eq. (integrated-R-r2):
+    (1,1): difference = 0
+    (1,2): difference = 0
+    (2,1): difference = 0
+    (2,2): difference = 0
+    float implementation vs closed form, r=2, random points: max abs diff = 3.0357660829594124e-17
+    calR at independence A=1, v=0, r=3: [ 0.00000000e+00  2.77555756e-17  4.16333634e-17  0.00000000e+00
+  1.38777878e-17  2.08166817e-17  0.00000000e+00 -4.16333634e-17
+ -3.46944695e-17]
+
+(b) Clayton calS_2 (A=1, S(e^{-q}) = theta e^{-q1-q2} q1 q2) vs supplement I:
+    (1,1): -t*theta*(t - 1)/4   difference = 0
+    (1,2): -3*t**2*theta*(t - 1)/8   difference = 0
+    (2,1): 3*t*theta*(t - 1)**2/8   difference = 0
+    (2,2): 3*t**2*theta*(t - 1)**2/4   difference = 0
+    r=3 Clayton calS_3 (new):
+      (1,1): -t*theta*(t - 1)/4
+      (1,2): -3*t**2*theta*(t - 1)/8
+      (1,3): -3*t**3*theta*(t - 1)/8
+      (2,1): 3*t*theta*(t - 1)**2/8
+      (2,2): 3*t**2*theta*(t - 1)**2/4
+      (2,3): 15*t**3*theta*(t - 1)**2/16
+      (3,1): -3*t*theta*(t - 1)**3/8
+      (3,2): -15*t**2*theta*(t - 1)**3/16
+      (3,3): -45*t**3*theta*(t - 1)**3/32
+
+(c) d = -d/da mu for r=2 vs explicit derivative:
+    (1,1): mu general - eq.(mu-r2) = 0;  -dmu/da = -1/(a + 1)**2
+    (1,2): mu general - eq.(mu-r2) = 0;  -dmu/da = -2*(a + t - 1)/(a + 1)**3
+    (2,1): mu general - eq.(mu-r2) = 0;  -dmu/da = 2*(-a + t)/(a + 1)**3
+    (2,2): mu general - eq.(mu-r2) = 0;  -dmu/da = 2*(-2*a**2 + 3*a + 3*t**2 - 3*t - 1)/(a + 1)**4
+    float d_vec(0.8,0.3,2) = [-0.30864198 -0.03429355 -0.17146776 -0.09716507]
+
+(d) Block-maxima second-order condition, mpmath 50 digits, Richardson in b:
+    Joe(2)         : max rel. error of S over 4 test points = 1.46e-9
+    OPC(1,2)       : max rel. error of S over 4 test points = 1.04e-8
+    Archimax psi2  : max rel. error of S over 4 test points = 3.13e-8
+    Clayton(1)     : max rel. error of S over 4 test points = 2.1e-9
+
+(e) POT second-order condition (SO)_p, b[1-C(1-x/b)] - L(x) = alpha_p(b) S_p(x) + o:
+    GH(2)          : max rel. error of S_p over 3 test points = 4.63e-12
+    Joe(2)         : max rel. error of S_p over 3 test points = 1.56e-12
+    OPC(1,2)       : max rel. error of S_p over 3 test points = 1.04e-11
+    Archimax psi2  : max rel. error of S_p over 3 test points = 2.05e-11
+    Clayton(1)     : max rel. error of S_p over 3 test points = 1.3e-11
+    Joe(2) exact identity b{1-C(1-x/b)} = {x^2+y^2-b^-2 x^2 y^2}^{1/2}: diff = 2.0e-50

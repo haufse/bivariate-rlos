@@ -1,0 +1,201 @@
+model,b,r2,step,ratio,ivar_ratio_mc,ivar_ratio_asym,ibias2_ratio_mc,ibias2_ratio_kinf,ibias2_ratio_lead
+M3,5,r2_or,lead (Sec.7: asym var + leading bias),1.2031,0.83942,0.81127,1.6569,1.563,1.2646
+M3,5,r2_or,asym var + exact k=inf bias,1.4425,0.83942,0.81127,1.6569,1.563,1.2646
+M3,5,r2_or,MC var + exact k=inf bias,1.4676,0.83942,0.81127,1.6569,1.563,1.2646
+M3,5,r2_or,MC var + exact bias + c/k (theory),1.5418,0.83942,0.81127,1.6569,1.563,1.2646
+M3,5,r2_or,MC (var + bias^2),1.5494,0.83942,0.81127,1.6569,1.563,1.2646
+M3,5,r2_eff,lead (Sec.7: asym var + leading bias),1.2031,0.85117,0.81127,1.6294,1.563,1.2646
+M3,5,r2_eff,asym var + exact k=inf bias,1.4425,0.85117,0.81127,1.6294,1.563,1.2646
+M3,5,r2_eff,MC var + exact k=inf bias,1.4691,0.85117,0.81127,1.6294,1.563,1.2646
+M3,5,r2_eff,MC var + exact bias + c/k (theory),1.5433,0.85117,0.81127,1.6294,1.563,1.2646
+M3,5,r2_eff,MC (var + bias^2),1.527,0.85117,0.81127,1.6294,1.563,1.2646
+M3,10,r2_or,lead (Sec.7: asym var + leading bias),1.0123,0.81146,0.81127,1.6827,1.3874,1.2646
+M3,10,r2_or,asym var + exact k=inf bias,1.0527,0.81146,0.81127,1.6827,1.3874,1.2646
+M3,10,r2_or,MC var + exact k=inf bias,1.068,0.81146,0.81127,1.6827,1.3874,1.2646
+M3,10,r2_or,MC var + exact bias + c/k (theory),1.229,0.81146,0.81127,1.6827,1.3874,1.2646
+M3,10,r2_or,MC (var + bias^2),1.2082,0.81146,0.81127,1.6827,1.3874,1.2646
+M3,10,r2_eff,lead (Sec.7: asym var + leading bias),1.0123,0.81835,0.81127,1.7136,1.3874,1.2646
+M3,10,r2_eff,asym var + exact k=inf bias,1.0527,0.81835,0.81127,1.7136,1.3874,1.2646
+M3,10,r2_eff,MC var + exact k=inf bias,1.0718,0.81835,0.81127,1.7136,1.3874,1.2646
+M3,10,r2_eff,MC var + exact bias + c/k (theory),1.2327,0.81835,0.81127,1.7136,1.3874,1.2646
+M3,10,r2_eff,MC (var + bias^2),1.226,0.81835,0.81127,1.7136,1.3874,1.2646
+M3,20,r2_or,lead (Sec.7: asym var + leading bias),0.85234,0.78209,0.81127,2.3444,1.3203,1.2646
+M3,20,r2_or,asym var + exact k=inf bias,0.85531,0.78209,0.81127,2.3444,1.3203,1.2646
+M3,20,r2_or,MC var + exact k=inf bias,0.82913,0.78209,0.81127,2.3444,1.3203,1.2646
+M3,20,r2_or,MC var + exact bias + c/k (theory),0.99598,0.78209,0.81127,2.3444,1.3203,1.2646
+M3,20,r2_or,MC (var + bias^2),0.97648,0.78209,0.81127,2.3444,1.3203,1.2646
+M3,20,r2_eff,lead (Sec.7: asym var + leading bias),0.85234,0.79096,0.81127,2.4443,1.3203,1.2646
+M3,20,r2_eff,asym var + exact k=inf bias,0.85531,0.79096,0.81127,2.4443,1.3203,1.2646
+M3,20,r2_eff,MC var + exact k=inf bias,0.83723,0.79096,0.81127,2.4443,1.3203,1.2646
+M3,20,r2_eff,MC var + exact bias + c/k (theory),1.0038,0.79096,0.81127,2.4443,1.3203,1.2646
+M3,20,r2_eff,MC (var + bias^2),0.99666,0.79096,0.81127,2.4443,1.3203,1.2646
+M3,40,r2_or,lead (Sec.7: asym var + leading bias),0.81684,0.74085,0.81127,4.0663,1.2911,1.2646
+M3,40,r2_or,asym var + exact k=inf bias,0.81702,0.74085,0.81127,4.0663,1.2911,1.2646
+M3,40,r2_or,MC var + exact k=inf bias,0.74703,0.74085,0.81127,4.0663,1.2911,1.2646
+M3,40,r2_or,MC var + exact bias + c/k (theory),0.91108,0.74085,0.81127,4.0663,1.2911,1.2646
+M3,40,r2_or,MC (var + bias^2),0.89106,0.74085,0.81127,4.0663,1.2911,1.2646
+M3,40,r2_eff,lead (Sec.7: asym var + leading bias),0.81684,0.75203,0.81127,4.6906,1.2911,1.2646
+M3,40,r2_eff,asym var + exact k=inf bias,0.81702,0.75203,0.81127,4.6906,1.2911,1.2646
+M3,40,r2_eff,MC var + exact k=inf bias,0.75808,0.75203,0.81127,4.6906,1.2911,1.2646
+M3,40,r2_eff,MC var + exact bias + c/k (theory),0.92187,0.75203,0.81127,4.6906,1.2911,1.2646
+M3,40,r2_eff,MC (var + bias^2),0.92993,0.75203,0.81127,4.6906,1.2911,1.2646
+M3,80,r2_or,lead (Sec.7: asym var + leading bias),0.81197,0.77705,0.81127,7.2632,1.2775,1.2646
+M3,80,r2_or,asym var + exact k=inf bias,0.81198,0.77705,0.81127,7.2632,1.2775,1.2646
+M3,80,r2_or,MC var + exact k=inf bias,0.77779,0.77705,0.81127,7.2632,1.2775,1.2646
+M3,80,r2_or,MC var + exact bias + c/k (theory),1.0246,0.77705,0.81127,7.2632,1.2775,1.2646
+M3,80,r2_or,MC (var + bias^2),0.94834,0.77705,0.81127,7.2632,1.2775,1.2646
+M3,80,r2_eff,lead (Sec.7: asym var + leading bias),0.81197,0.76806,0.81127,10.136,1.2775,1.2646
+M3,80,r2_eff,asym var + exact k=inf bias,0.81198,0.76806,0.81127,10.136,1.2775,1.2646
+M3,80,r2_eff,MC var + exact k=inf bias,0.76881,0.76806,0.81127,10.136,1.2775,1.2646
+M3,80,r2_eff,MC var + exact bias + c/k (theory),1.0158,0.76806,0.81127,10.136,1.2775,1.2646
+M3,80,r2_eff,MC (var + bias^2),1.0155,0.76806,0.81127,10.136,1.2775,1.2646
+M2,5,r2_or,lead (Sec.7: asym var + leading bias),1.3012,0.94058,0.81127,1.5389,1.6283,1.3781
+M2,5,r2_or,asym var + exact k=inf bias,1.4981,0.94058,0.81127,1.5389,1.6283,1.3781
+M2,5,r2_or,MC var + exact k=inf bias,1.5086,0.94058,0.81127,1.5389,1.6283,1.3781
+M2,5,r2_or,MC var + exact bias + c/k (theory),1.4366,0.94058,0.81127,1.5389,1.6283,1.3781
+M2,5,r2_or,MC (var + bias^2),1.4315,0.94058,0.81127,1.5389,1.6283,1.3781
+M2,5,r2_eff,lead (Sec.7: asym var + leading bias),1.3012,0.9216,0.81127,1.4313,1.6283,1.3781
+M2,5,r2_eff,asym var + exact k=inf bias,1.4981,0.9216,0.81127,1.4313,1.6283,1.3781
+M2,5,r2_eff,MC var + exact k=inf bias,1.5053,0.9216,0.81127,1.4313,1.6283,1.3781
+M2,5,r2_eff,MC var + exact bias + c/k (theory),1.4333,0.9216,0.81127,1.4313,1.6283,1.3781
+M2,5,r2_eff,MC (var + bias^2),1.3398,0.9216,0.81127,1.4313,1.6283,1.3781
+M2,10,r2_or,lead (Sec.7: asym var + leading bias),1.0627,0.82577,0.81127,1.1639,1.4896,1.3781
+M2,10,r2_or,asym var + exact k=inf bias,1.0954,0.82577,0.81127,1.1639,1.4896,1.3781
+M2,10,r2_or,MC var + exact k=inf bias,1.087,0.82577,0.81127,1.1639,1.4896,1.3781
+M2,10,r2_or,MC var + exact bias + c/k (theory),0.95744,0.82577,0.81127,1.1639,1.4896,1.3781
+M2,10,r2_or,MC (var + bias^2),0.95225,0.82577,0.81127,1.1639,1.4896,1.3781
+M2,10,r2_eff,lead (Sec.7: asym var + leading bias),1.0627,0.82085,0.81127,1.0884,1.4896,1.3781
+M2,10,r2_eff,asym var + exact k=inf bias,1.0954,0.82085,0.81127,1.0884,1.4896,1.3781
+M2,10,r2_eff,MC var + exact k=inf bias,1.084,0.82085,0.81127,1.0884,1.4896,1.3781
+M2,10,r2_eff,MC var + exact bias + c/k (theory),0.95434,0.82085,0.81127,1.0884,1.4896,1.3781
+M2,10,r2_eff,MC (var + bias^2),0.92092,0.82085,0.81127,1.0884,1.4896,1.3781
+M2,20,r2_or,lead (Sec.7: asym var + leading bias),0.86263,0.79319,0.81127,0.47377,1.4309,1.3781
+M2,20,r2_or,asym var + exact k=inf bias,0.86481,0.79319,0.81127,0.47377,1.4309,1.3781
+M2,20,r2_or,MC var + exact k=inf bias,0.8439,0.79319,0.81127,0.47377,1.4309,1.3781
+M2,20,r2_or,MC var + exact bias + c/k (theory),0.77517,0.79319,0.81127,0.47377,1.4309,1.3781
+M2,20,r2_or,MC (var + bias^2),0.77873,0.79319,0.81127,0.47377,1.4309,1.3781
+M2,20,r2_eff,lead (Sec.7: asym var + leading bias),0.86263,0.79776,0.81127,0.4463,1.4309,1.3781
+M2,20,r2_eff,asym var + exact k=inf bias,0.86481,0.79776,0.81127,0.4463,1.4309,1.3781
+M2,20,r2_eff,MC var + exact k=inf bias,0.8481,0.79776,0.81127,0.4463,1.4309,1.3781
+M2,20,r2_eff,MC var + exact bias + c/k (theory),0.77949,0.79776,0.81127,0.4463,1.4309,1.3781
+M2,20,r2_eff,MC (var + bias^2),0.78184,0.79776,0.81127,0.4463,1.4309,1.3781
+M2,40,r2_or,lead (Sec.7: asym var + leading bias),0.81824,0.82145,0.81127,116.72,1.4038,1.3781
+M2,40,r2_or,asym var + exact k=inf bias,0.81837,0.82145,0.81127,116.72,1.4038,1.3781
+M2,40,r2_or,MC var + exact k=inf bias,0.82811,0.82145,0.81127,116.72,1.4038,1.3781
+M2,40,r2_or,MC var + exact bias + c/k (theory),0.8717,0.82145,0.81127,116.72,1.4038,1.3781
+M2,40,r2_or,MC (var + bias^2),0.86713,0.82145,0.81127,116.72,1.4038,1.3781
+M2,40,r2_eff,lead (Sec.7: asym var + leading bias),0.81824,0.82925,0.81127,163.37,1.4038,1.3781
+M2,40,r2_eff,asym var + exact k=inf bias,0.81837,0.82925,0.81127,163.37,1.4038,1.3781
+M2,40,r2_eff,MC var + exact k=inf bias,0.83582,0.82925,0.81127,163.37,1.4038,1.3781
+M2,40,r2_eff,MC var + exact bias + c/k (theory),0.8795,0.82925,0.81127,163.37,1.4038,1.3781
+M2,40,r2_eff,MC (var + bias^2),0.89332,0.82925,0.81127,163.37,1.4038,1.3781
+M2,80,r2_or,lead (Sec.7: asym var + leading bias),0.81215,0.77977,0.81127,8.4501,1.3907,1.3781
+M2,80,r2_or,asym var + exact k=inf bias,0.81215,0.77977,0.81127,8.4501,1.3907,1.3781
+M2,80,r2_or,MC var + exact k=inf bias,0.78073,0.77977,0.81127,8.4501,1.3907,1.3781
+M2,80,r2_or,MC var + exact bias + c/k (theory),0.97929,0.77977,0.81127,8.4501,1.3907,1.3781
+M2,80,r2_or,MC (var + bias^2),0.91428,0.77977,0.81127,8.4501,1.3907,1.3781
+M2,80,r2_eff,lead (Sec.7: asym var + leading bias),0.81215,0.79487,0.81127,12.079,1.3907,1.3781
+M2,80,r2_eff,asym var + exact k=inf bias,0.81215,0.79487,0.81127,12.079,1.3907,1.3781
+M2,80,r2_eff,MC var + exact k=inf bias,0.79581,0.79487,0.81127,12.079,1.3907,1.3781
+M2,80,r2_eff,MC var + exact bias + c/k (theory),0.9943,0.79487,0.81127,12.079,1.3907,1.3781
+M2,80,r2_eff,MC (var + bias^2),0.99277,0.79487,0.81127,12.079,1.3907,1.3781
+M4,5,r2_or,lead (Sec.7: asym var + leading bias),0.86704,0.84837,0.81127,2.0982,1.8642,1.3093
+M4,5,r2_or,asym var + exact k=inf bias,0.99402,0.84837,0.81127,2.0982,1.8642,1.3093
+M4,5,r2_or,MC var + exact k=inf bias,1.0344,0.84837,0.81127,2.0982,1.8642,1.3093
+M4,5,r2_or,MC var + exact bias + c/k (theory),1.141,0.84837,0.81127,2.0982,1.8642,1.3093
+M4,5,r2_or,MC (var + bias^2),1.1381,0.84837,0.81127,2.0982,1.8642,1.3093
+M4,5,r2_eff,lead (Sec.7: asym var + leading bias),0.86704,0.85756,0.81127,2.205,1.8642,1.3093
+M4,5,r2_eff,asym var + exact k=inf bias,0.99402,0.85756,0.81127,2.205,1.8642,1.3093
+M4,5,r2_eff,MC var + exact k=inf bias,1.0419,0.85756,0.81127,2.205,1.8642,1.3093
+M4,5,r2_eff,MC var + exact bias + c/k (theory),1.1484,0.85756,0.81127,2.205,1.8642,1.3093
+M4,5,r2_eff,MC (var + bias^2),1.17,0.85756,0.81127,2.205,1.8642,1.3093
+M4,10,r2_or,lead (Sec.7: asym var + leading bias),0.81177,0.82409,0.81127,3.6983,1.584,0.94065
+M4,10,r2_or,asym var + exact k=inf bias,0.8156,0.82409,0.81127,3.6983,1.584,0.94065
+M4,10,r2_or,MC var + exact k=inf bias,0.82853,0.82409,0.81127,3.6983,1.584,0.94065
+M4,10,r2_or,MC var + exact bias + c/k (theory),0.88367,0.82409,0.81127,3.6983,1.584,0.94065
+M4,10,r2_or,MC (var + bias^2),0.90364,0.82409,0.81127,3.6983,1.584,0.94065
+M4,10,r2_eff,lead (Sec.7: asym var + leading bias),0.81177,0.83142,0.81127,4.068,1.584,0.94065
+M4,10,r2_eff,asym var + exact k=inf bias,0.8156,0.83142,0.81127,4.068,1.584,0.94065
+M4,10,r2_eff,MC var + exact k=inf bias,0.83582,0.83142,0.81127,4.068,1.584,0.94065
+M4,10,r2_eff,MC var + exact bias + c/k (theory),0.89089,0.83142,0.81127,4.068,1.584,0.94065
+M4,10,r2_eff,MC (var + bias^2),0.92099,0.83142,0.81127,4.068,1.584,0.94065
+M4,20,r2_or,lead (Sec.7: asym var + leading bias),0.81121,0.7763,0.81127,6.3591,0.66884,0.39544
+M4,20,r2_or,asym var + exact k=inf bias,0.81125,0.7763,0.81127,6.3591,0.66884,0.39544
+M4,20,r2_or,MC var + exact k=inf bias,0.77629,0.7763,0.81127,6.3591,0.66884,0.39544
+M4,20,r2_or,MC var + exact bias + c/k (theory),0.8349,0.7763,0.81127,6.3591,0.66884,0.39544
+M4,20,r2_or,MC (var + bias^2),0.84442,0.7763,0.81127,6.3591,0.66884,0.39544
+M4,20,r2_eff,lead (Sec.7: asym var + leading bias),0.81121,0.76966,0.81127,7.1845,0.66884,0.39544
+M4,20,r2_eff,asym var + exact k=inf bias,0.81125,0.76966,0.81127,7.1845,0.66884,0.39544
+M4,20,r2_eff,MC var + exact k=inf bias,0.76965,0.76966,0.81127,7.1845,0.66884,0.39544
+M4,20,r2_eff,MC var + exact bias + c/k (theory),0.8283,0.76966,0.81127,7.1845,0.66884,0.39544
+M4,20,r2_eff,MC (var + bias^2),0.84794,0.76966,0.81127,7.1845,0.66884,0.39544
+M4,40,r2_or,lead (Sec.7: asym var + leading bias),0.81126,0.773,0.81127,9.9155,0.059605,0.073291
+M4,40,r2_or,asym var + exact k=inf bias,0.81126,0.773,0.81127,9.9155,0.059605,0.073291
+M4,40,r2_or,MC var + exact k=inf bias,0.773,0.773,0.81127,9.9155,0.059605,0.073291
+M4,40,r2_or,MC var + exact bias + c/k (theory),0.88172,0.773,0.81127,9.9155,0.059605,0.073291
+M4,40,r2_or,MC (var + bias^2),0.86263,0.773,0.81127,9.9155,0.059605,0.073291
+M4,40,r2_eff,lead (Sec.7: asym var + leading bias),0.81126,0.79058,0.81127,11.972,0.059605,0.073291
+M4,40,r2_eff,asym var + exact k=inf bias,0.81126,0.79058,0.81127,11.972,0.059605,0.073291
+M4,40,r2_eff,MC var + exact k=inf bias,0.79058,0.79058,0.81127,11.972,0.059605,0.073291
+M4,40,r2_eff,MC var + exact bias + c/k (theory),0.89917,0.79058,0.81127,11.972,0.059605,0.073291
+M4,40,r2_eff,MC (var + bias^2),0.9002,0.79058,0.81127,11.972,0.059605,0.073291
+M4,80,r2_or,lead (Sec.7: asym var + leading bias),0.81127,0.71175,0.81127,16.024,2.0919,2.5021
+M4,80,r2_or,asym var + exact k=inf bias,0.81127,0.71175,0.81127,16.024,2.0919,2.5021
+M4,80,r2_or,MC var + exact k=inf bias,0.71175,0.71175,0.81127,16.024,2.0919,2.5021
+M4,80,r2_or,MC var + exact bias + c/k (theory),0.92196,0.71175,0.81127,16.024,2.0919,2.5021
+M4,80,r2_or,MC (var + bias^2),0.85303,0.71175,0.81127,16.024,2.0919,2.5021
+M4,80,r2_eff,lead (Sec.7: asym var + leading bias),0.81127,0.7263,0.81127,22.412,2.0919,2.5021
+M4,80,r2_eff,asym var + exact k=inf bias,0.81127,0.7263,0.81127,22.412,2.0919,2.5021
+M4,80,r2_eff,MC var + exact k=inf bias,0.7263,0.7263,0.81127,22.412,2.0919,2.5021
+M4,80,r2_eff,MC var + exact bias + c/k (theory),0.93632,0.7263,0.81127,22.412,2.0919,2.5021
+M4,80,r2_eff,MC (var + bias^2),0.92639,0.7263,0.81127,22.412,2.0919,2.5021
+M1,5,r2_or,lead (Sec.7: asym var + leading bias),0.8153,0.8512,0.81127,4.6361,2.7615e+22,inf
+M1,5,r2_or,asym var + exact k=inf bias,0.81236,0.8512,0.81127,4.6361,2.7615e+22,inf
+M1,5,r2_or,MC var + exact k=inf bias,0.85226,0.8512,0.81127,4.6361,2.7615e+22,inf
+M1,5,r2_or,MC var + exact bias + c/k (theory),0.85896,0.8512,0.81127,4.6361,2.7615e+22,inf
+M1,5,r2_or,MC (var + bias^2),0.86106,0.8512,0.81127,4.6361,2.7615e+22,inf
+M1,5,r2_eff,lead (Sec.7: asym var + leading bias),0.8153,0.85102,0.81127,6.7285,2.7615e+22,inf
+M1,5,r2_eff,asym var + exact k=inf bias,0.81236,0.85102,0.81127,6.7285,2.7615e+22,inf
+M1,5,r2_eff,MC var + exact k=inf bias,0.85207,0.85102,0.81127,6.7285,2.7615e+22,inf
+M1,5,r2_eff,MC var + exact bias + c/k (theory),0.85878,0.85102,0.81127,6.7285,2.7615e+22,inf
+M1,5,r2_eff,MC (var + bias^2),0.86633,0.85102,0.81127,6.7285,2.7615e+22,inf
+M1,10,r2_or,lead (Sec.7: asym var + leading bias),0.81177,0.85304,0.81127,5.2974,1.5613e+22,inf
+M1,10,r2_or,asym var + exact k=inf bias,0.81159,0.85304,0.81127,5.2974,1.5613e+22,inf
+M1,10,r2_or,MC var + exact k=inf bias,0.85335,0.85304,0.81127,5.2974,1.5613e+22,inf
+M1,10,r2_or,MC var + exact bias + c/k (theory),0.876,0.85304,0.81127,5.2974,1.5613e+22,inf
+M1,10,r2_or,MC (var + bias^2),0.87866,0.85304,0.81127,5.2974,1.5613e+22,inf
+M1,10,r2_eff,lead (Sec.7: asym var + leading bias),0.81177,0.85866,0.81127,5.8255,1.5613e+22,inf
+M1,10,r2_eff,asym var + exact k=inf bias,0.81159,0.85866,0.81127,5.8255,1.5613e+22,inf
+M1,10,r2_eff,MC var + exact k=inf bias,0.85898,0.85866,0.81127,5.8255,1.5613e+22,inf
+M1,10,r2_eff,MC var + exact bias + c/k (theory),0.88162,0.85866,0.81127,5.8255,1.5613e+22,inf
+M1,10,r2_eff,MC (var + bias^2),0.8873,0.85866,0.81127,5.8255,1.5613e+22,inf
+M1,20,r2_or,lead (Sec.7: asym var + leading bias),0.81133,0.79893,0.81127,8.3139,5.0466e+21,inf
+M1,20,r2_or,asym var + exact k=inf bias,0.81132,0.79893,0.81127,8.3139,5.0466e+21,inf
+M1,20,r2_or,MC var + exact k=inf bias,0.79898,0.79893,0.81127,8.3139,5.0466e+21,inf
+M1,20,r2_or,MC var + exact bias + c/k (theory),0.85423,0.79893,0.81127,8.3139,5.0466e+21,inf
+M1,20,r2_or,MC (var + bias^2),0.85324,0.79893,0.81127,8.3139,5.0466e+21,inf
+M1,20,r2_eff,lead (Sec.7: asym var + leading bias),0.81133,0.8156,0.81127,9.642,5.0466e+21,inf
+M1,20,r2_eff,asym var + exact k=inf bias,0.81132,0.8156,0.81127,9.642,5.0466e+21,inf
+M1,20,r2_eff,MC var + exact k=inf bias,0.81566,0.8156,0.81127,9.642,5.0466e+21,inf
+M1,20,r2_eff,MC var + exact bias + c/k (theory),0.87085,0.8156,0.81127,9.642,5.0466e+21,inf
+M1,20,r2_eff,MC (var + bias^2),0.87939,0.8156,0.81127,9.642,5.0466e+21,inf
+M1,40,r2_or,lead (Sec.7: asym var + leading bias),0.81127,0.78037,0.81127,14.559,1.4013e+21,inf
+M1,40,r2_or,asym var + exact k=inf bias,0.81127,0.78037,0.81127,14.559,1.4013e+21,inf
+M1,40,r2_or,MC var + exact k=inf bias,0.78038,0.78037,0.81127,14.559,1.4013e+21,inf
+M1,40,r2_or,MC var + exact bias + c/k (theory),0.90482,0.78037,0.81127,14.559,1.4013e+21,inf
+M1,40,r2_or,MC (var + bias^2),0.88311,0.78037,0.81127,14.559,1.4013e+21,inf
+M1,40,r2_eff,lead (Sec.7: asym var + leading bias),0.81127,0.80804,0.81127,17.325,1.4013e+21,inf
+M1,40,r2_eff,asym var + exact k=inf bias,0.81127,0.80804,0.81127,17.325,1.4013e+21,inf
+M1,40,r2_eff,MC var + exact k=inf bias,0.80805,0.80804,0.81127,17.325,1.4013e+21,inf
+M1,40,r2_eff,MC var + exact bias + c/k (theory),0.93227,0.80804,0.81127,17.325,1.4013e+21,inf
+M1,40,r2_eff,MC (var + bias^2),0.93118,0.80804,0.81127,17.325,1.4013e+21,inf
+M1,80,r2_or,lead (Sec.7: asym var + leading bias),0.81127,0.73422,0.81127,9.4729,3.6747e+20,inf
+M1,80,r2_or,asym var + exact k=inf bias,0.81127,0.73422,0.81127,9.4729,3.6747e+20,inf
+M1,80,r2_or,MC var + exact k=inf bias,0.73422,0.73422,0.81127,9.4729,3.6747e+20,inf
+M1,80,r2_or,MC var + exact bias + c/k (theory),0.98586,0.73422,0.81127,9.4729,3.6747e+20,inf
+M1,80,r2_or,MC (var + bias^2),0.91648,0.73422,0.81127,9.4729,3.6747e+20,inf
+M1,80,r2_eff,lead (Sec.7: asym var + leading bias),0.81127,0.75145,0.81127,12.808,3.6747e+20,inf
+M1,80,r2_eff,asym var + exact k=inf bias,0.81127,0.75145,0.81127,12.808,3.6747e+20,inf
+M1,80,r2_eff,MC var + exact k=inf bias,0.75145,0.75145,0.81127,12.808,3.6747e+20,inf
+M1,80,r2_eff,MC var + exact bias + c/k (theory),1.0028,0.75145,0.81127,12.808,3.6747e+20,inf
+M1,80,r2_eff,MC (var + bias^2),1.0029,0.75145,0.81127,12.808,3.6747e+20,inf

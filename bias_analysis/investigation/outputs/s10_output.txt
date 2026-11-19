@@ -1,0 +1,27 @@
+CHECKS
+  GH2 t=0.3: Q local [0.096065 0.088334 0.360666 0.417927]  biaslib [0.096065 0.088334 0.360666 0.417927]  max|diff| 4.4e-16
+  GH2 t=0.5: Q local [0.14108  0.192759 0.192759 0.503128]  biaslib [0.14108  0.192759 0.192759 0.503128]  max|diff| 1.7e-15
+  IND t=0.5: Q local [0.333333 0.472222 0.472222 0.736111]  biaslib [0.333333 0.472222 0.472222 0.736111]  max|diff| 1.1e-16
+  GH2 at t=1/2: A = 0.7071067812, A' = 0, A'' = 2.8284271247
+
+LOCAL PARTIALS of eta_W(1/2) at GH2 (Sigma held at Sigma_GH2; W fixed):
+     h weights      eta      F_a  F_a1    F_a2
+0.0010      r1 -0.36883 -0.24312   0.0 0.11536
+0.0010      or -1.20807 -3.19217   0.0 0.12051
+0.0010      id -0.97270 -2.34941   0.0 0.12320
+0.0001      r1 -0.36883 -0.24312   0.0 0.11536
+0.0001      or -1.20807 -3.19220   0.0 0.12051
+0.0001      id -0.97270 -2.34941   0.0 0.12320
+  mpmath30 check F_a2(r1) = lam * dQ11/da2 = 0.115364
+
+GH(theta) DIRECTION at t=1/2 (theta = 2 -/+ dth; W fixed at the GH2 choice):
+weights  slope_GH  slope_GH_SigmaFixed   N_GH  dA2_dA_GH
+     r1   -2.2017              -2.4446 0.2430   -19.0831
+     or   -4.2855              -5.4919 1.2065   -19.0831
+     id   -4.3860              -4.7005 0.3144   -19.0831
+  (slope_GH_SigmaFixed should equal F_a + F_a2 * dA2_dA_GH; N_GH = nu-part through Sigma)
+  r1: F_a + F_a2*dA2/dA = -2.4446  vs  slope_GH_SigmaFixed -2.4446
+  or: F_a + F_a2*dA2/dA = -5.4919  vs  slope_GH_SigmaFixed -5.4919
+  id: F_a + F_a2*dA2/dA = -4.7004  vs  slope_GH_SigmaFixed -4.7005
+
+IND chord (eta_IND - eta_GH2)/(1 - A_GH2(1/2)): r1 -2.968, or -8.083, id -5.570

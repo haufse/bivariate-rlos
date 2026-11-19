@@ -1,0 +1,5 @@
+k=500, R=6000, oracle weights, IVar_K(uncorrected)*k = 0.0260
+b=  5 fixed : b*(1 - IVar ratio) = 0.271  (MCSE 0.001)
+b=  5 pilot : b*(1 - IVar ratio) = 0.381  (MCSE 0.001)
+b= 10 fixed : b*(1 - IVar ratio) = 0.278  (MCSE 0.001)
+b= 10 pilot : b*(1 - IVar ratio) = 0.390  (MCSE 0.001)
