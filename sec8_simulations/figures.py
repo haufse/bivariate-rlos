@@ -339,13 +339,21 @@ def fig_variance(D, sec7_grid):
     a.axvspan(K_HI, 0.92, color="0.92", lw=0)
     a.set_xlim(0.08, 0.92)
     a.set_xlabel(r"$t$")
-    a.set_ylabel(r"$k\,\widehat{\operatorname{Var}}\{\check A(t)\}$")
+    a.set_ylabel(r"scaled variance")
     a.set_title(rf"(a) M1, $n={NLAB[n]}$, $b={b}$ ($k={n // b}$)", pad=3)
     h = [Line2D([], [], color=STY[k]["c"], marker=STY[k]["m"], ls="-", lw=0.9, ms=3)
          for k in ("r1", "r2_id", "r2_eff")]
     lab = [r"$r=1$", r"$r=2$, $W=I$", r"$r=2$, $\hat\Sigma_n^{-1}$"]
-    a.legend(h, lab, loc="upper left", ncol=1, fontsize=6.5, handletextpad=0.4, borderaxespad=0.2,
-             handlelength=1.8)
+    leg1 = a.legend(h, lab, loc="upper left", ncol=1, fontsize=6.5, handletextpad=0.4,
+                    borderaxespad=0.2, handlelength=1.8)
+    a.add_artist(leg1)
+    # second key: points = Monte Carlo, lines = asymptotic
+    h2 = [Line2D([], [], color="0.35", marker="o", ls="none", ms=2.6),
+          Line2D([], [], color="0.35", ls="-", lw=0.9)]
+    lab2 = [r"Monte Carlo $k\,\widehat{\operatorname{Var}}\{\check A(t)\}$",
+            r"asymptotic $\sigma_W^2(t)$"]
+    a.legend(h2, lab2, loc="upper right", ncol=1, fontsize=6.5, handletextpad=0.4,
+             borderaxespad=0.2, handlelength=1.8)
     a.set_ylim(0, 0.09)
 
     # (b) variance ratio r2_eff / r1 (paired) at n = 1e4 and 1e5, b = 40
@@ -355,7 +363,7 @@ def fig_variance(D, sec7_grid):
             g = g[(g.t >= K_LO - 1e-9) & (g.t <= K_HI + 1e-9)]
             bx.errorbar(g.t + dx, g.var_ratio_r1, yerr=2 * g.mcse_var_ratio_r1, color=col, marker=mk,
                         mfc=mfc if mfc != "#0072B2" else col, ls="none", ms=2.8, elinewidth=0.6,
-                        label=rf"$n={NLAB[nn]}$, $k={nn // 40}$")
+                        label=rf"Monte Carlo, $n={NLAB[nn]}$, $k={nn // 40}$")
     if cur is not None:
         m = (cur["t"] >= K_LO - 0.01) & (cur["t"] <= K_HI + 0.01)
         bx.plot(cur["t"][m], (cur["vopt"] / cur["v1"])[m], color="k", lw=0.9,
@@ -363,7 +371,7 @@ def fig_variance(D, sec7_grid):
     bx.axhline(1.0, color="0.6", lw=0.5, zorder=0)
     bx.set_xlim(K_LO - 0.02, K_HI + 0.02)
     bx.set_xlabel(r"$t$")
-    bx.set_ylabel(r"$\operatorname{Var}(r=2,\hat\Sigma_n^{-1})/\operatorname{Var}(r=1)$")
+    bx.set_ylabel(r"variance ratio, $r=2$ ($\hat\Sigma_n^{-1}$) to $r=1$")
     bx.set_title(r"(b) M1, $b=40$, paired variance ratio", pad=3)
     bx.legend(loc="lower right", ncol=1, fontsize=6.5, handletextpad=0.3, borderaxespad=0.3)
     bx.set_ylim(0.4, 1.1)
